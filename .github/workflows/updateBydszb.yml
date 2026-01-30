@@ -15,11 +15,17 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 18
-      - name: 更新内容
+      - name: 更新
         run: node fetchURLByzbpro.js
       - name: 生成mivgo文件
         run: node mivgo.js
-      - name: 推送到当前仓库
+      - name: 合并
+        run: |
+          OWNER=${{ github.repository_owner }}
+          mkdir -p HD/output
+          curl -s https://raw.githubusercontent.com/${OWNER}/HD/main/output/result.m3u -o HD/output/result.m3u
+          node mergeChannels.js
+      - name: 推送
         run: |
           if ! git diff --quiet --exit-code || [ -n "$(git status --porcelain)" ]; then
             git config user.name "GitHub Actions"
@@ -28,7 +34,7 @@ jobs:
             git commit -m "Update by GitHub Actions"
             git push
           fi
-      - name: 推送到cnb仓库
+      - name: cnb
         env:
           CNB_PAT: ${{ secrets.CNB_PAT }}
         run: |
@@ -44,7 +50,7 @@ jobs:
           if ! git diff --quiet --exit-code || [ -n "$(git status --porcelain)" ]; then
             git config user.name "GitHub Actions"
             git config user.email "actions@github.com"
-            git add mivgo.gz mivgo.m3u
+            git add mivgo.gz mivgo.m3u result.m3u
             git commit -m "Update mivgo files by GitHub Actions"
             git push origin main
           fi
