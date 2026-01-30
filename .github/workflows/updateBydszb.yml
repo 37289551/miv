@@ -40,6 +40,7 @@ jobs:
           git clone https://${{ secrets.CNB_PAT }}@github.com/${OWNER}/cnb.git
           cp mivgo.gz cnb/
           cp mivgo.m3u cnb/
+          cp result.m3u cnb/
           cd cnb
           if ! git diff --quiet --exit-code || [ -n "$(git status --porcelain)" ]; then
             git config user.name "GitHub Actions"
