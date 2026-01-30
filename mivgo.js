@@ -2,7 +2,9 @@ import { readFileSync, writeFileSync } from 'fs';
 import { resolve } from 'path';
 
 const inputFilePath = resolve('./interface.txt');
-const outputFilePath = resolve('./mivgo.m3u');
+const outputFilePath = resolve('./mivgo.gz');
+
+import { gzipSync } from 'zlib';
 
 function normalizeCCTVName(name) {
     const cctvMatch = name.match(/^CCTV(\d+[+]?)/);
@@ -168,8 +170,12 @@ function main() {
     try {
         const content = readFileSync(inputFilePath, 'utf-8');
         const processedContent = processInterfaceFile(content);
-        writeFileSync(outputFilePath, processedContent, 'utf-8');
+        const compressed = gzipSync(Buffer.from(processedContent));
+        writeFileSync(outputFilePath, compressed);
         console.log('✓ 处理完成，文件已保存到:', outputFilePath);
+        console.log('✓ 原始大小:', Buffer.byteLength(processedContent, 'utf-8'), '字节');
+        console.log('✓ 压缩后大小:', compressed.length, '字节');
+        console.log('✓ 压缩比:', ((1 - compressed.length / Buffer.byteLength(processedContent, 'utf-8')) * 100).toFixed(2) + '%');
     } catch (error) {
         console.error('✗ 处理失败:', error.message);
         process.exit(1);
