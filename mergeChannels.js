@@ -5,6 +5,17 @@ const hdRepoPath = resolve('./HD/output/result.m3u');
 const mivgoPath = resolve('./mivgo.m3u');
 const outputPath = resolve('./result.m3u');
 
+// 标准化频道名称，用于匹配
+function normalizeChannelName(name) {
+    // 处理 CCTV 频道
+    const cctvMatch = name.match(/^CCTV(\d+[+]?)/);
+    if (cctvMatch) {
+        return `CCTV-${cctvMatch[1]}`;
+    }
+    // 处理其他频道（如卫视）
+    return name;
+}
+
 function parseM3U(content) {
     const lines = content.split('\n');
     const header = [];
@@ -28,20 +39,17 @@ function parseM3U(content) {
         }
 
         const groupMatch = line.match(/group-title="([^"]+)"/);
-        const tvgNameMatch = line.match(/tvg-name="([^"]+)"/);
         const displayNameMatch = line.match(/,([^,\n]+)$/);
 
-        const tvgName = tvgNameMatch ? tvgNameMatch[1] : '';
         const displayName = displayNameMatch ? displayNameMatch[1] : '';
         const group = groupMatch ? groupMatch[1] : '';
 
-        // 使用 tvg-name 作为主要匹配键，如果没有则使用显示名称
-        const nameKey = tvgName || displayName;
+        // 使用标准化的显示名称作为匹配键
+        const nameKey = normalizeChannelName(displayName);
 
         channels.push({
             group,
             name: displayName,
-            tvgName: tvgName,
             nameKey: nameKey,
             extinf: line,
             url: lines[i + 1] || ''
@@ -74,7 +82,6 @@ function main() {
         const mivgoContent = readFileSync(mivgoPath, 'utf-8');
         const mivgoData = parseM3U(mivgoContent);
 
-        // 提取 mivgo 的央视和卫视频道
         const mivgoCCTVChannels = mivgoData.channels
             .filter(ch => ch.group === '央视频道')
             .reduce((acc, ch) => {
@@ -102,24 +109,21 @@ function main() {
         console.log(`找到 ${mivgoCCTVChannels.size} 个央视频道`);
         console.log(`找到 ${mivgoSatelliteChannels.size} 个卫视频道`);
 
-        // 打印调试信息
         console.log('mivgo 央视频道列表:', [...mivgoCCTVChannels.keys()]);
         console.log('HD 央视频道前5个:', hdData.channels
             .filter(ch => ch.group === '央视频道')
             .slice(0, 5)
-            .map(ch => ({ name: ch.name, tvgName: ch.tvgName, nameKey: ch.nameKey })));
+            .map(ch => ({ name: ch.name, nameKey: ch.nameKey })));
 
         console.log('mivgo 卫视频道列表:', [...mivgoSatelliteChannels.keys()]);
         console.log('HD 卫视频道前5个:', hdData.channels
             .filter(ch => ch.group === '卫视频道')
             .slice(0, 5)
-            .map(ch => ({ name: ch.name, tvgName: ch.tvgName, nameKey: ch.nameKey })));
+            .map(ch => ({ name: ch.name, nameKey: ch.nameKey })));
 
-        // 构建新的频道列表
         const newChannels = [];
         const processedNames = new Set();
 
-        // 先构建分组映射，按名称分组并保持原始顺序
         const hdChannelGroups = new Map();
         for (const channel of hdData.channels) {
             const key = `${channel.nameKey}|${channel.group}`;
@@ -140,19 +144,16 @@ function main() {
             const mivgoChannels = isCCTV ? mivgoCCTVChannels : isSatellite ? mivgoSatelliteChannels : null;
 
             if (mivgoChannels && mivgoChannels.has(key) && !processedNames.has(key)) {
-                // 覆盖前1-2条线路（使用 mivgo 的线路）
                 const replacementChannels = mivgoChannels.get(key);
                 newChannels.push(...replacementChannels);
                 processedNames.add(key);
                 matchCount++;
 
-                // 保留 HD 的其他线路（从第 replacementChannels.length 条开始）
                 const hdChannels = hdChannelGroups.get(groupKey);
                 if (hdChannels && hdChannels.length > replacementChannels.length) {
                     newChannels.push(...hdChannels.slice(replacementChannels.length));
                 }
             } else if (!processedNames.has(key)) {
-                // 未匹配的频道，保持原样
                 newChannels.push(channel);
             }
         }
