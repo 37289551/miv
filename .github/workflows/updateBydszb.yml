@@ -29,15 +29,22 @@ jobs:
             git push
           fi
       - name: 推送到cnb仓库
+        env:
+          CNB_PAT: ${{ secrets.CNB_PAT }}
         run: |
+          if [ -z "$CNB_PAT" ]; then
+            echo "CNB_PAT secret not set, skipping push to cnb repository"
+            exit 0
+          fi
           OWNER=${{ github.repository_owner }}
           git clone https://${{ secrets.CNB_PAT }}@github.com/${OWNER}/cnb.git
           cp mivgo.gz cnb/
+          cp mivgo.m3u cnb/
           cd cnb
           if ! git diff --quiet --exit-code || [ -n "$(git status --porcelain)" ]; then
             git config user.name "GitHub Actions"
             git config user.email "actions@github.com"
             git add mivgo.gz mivgo.m3u
-            git commit -m "Update mivgo.gz by GitHub Actions"
+            git commit -m "Update mivgo files by GitHub Actions"
             git push origin main
           fi
