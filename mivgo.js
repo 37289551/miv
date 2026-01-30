@@ -2,7 +2,8 @@ import { readFileSync, writeFileSync } from 'fs';
 import { resolve } from 'path';
 
 const inputFilePath = resolve('./interface.txt');
-const outputFilePath = resolve('./mivgo.gz');
+const outputGzPath = resolve('./mivgo.gz');
+const outputM3uPath = resolve('./mivgo.m3u');
 
 import { gzipSync } from 'zlib';
 
@@ -170,9 +171,15 @@ function main() {
     try {
         const content = readFileSync(inputFilePath, 'utf-8');
         const processedContent = processInterfaceFile(content);
+        
+        // 输出 m3u 格式文件
+        writeFileSync(outputM3uPath, processedContent, 'utf-8');
+        console.log('✓ M3U 文件已保存到:', outputM3uPath);
+        
+        // 输出 gz 压缩格式文件
         const compressed = gzipSync(Buffer.from(processedContent));
-        writeFileSync(outputFilePath, compressed);
-        console.log('✓ 处理完成，文件已保存到:', outputFilePath);
+        writeFileSync(outputGzPath, compressed);
+        console.log('✓ GZ 文件已保存到:', outputGzPath);
         console.log('✓ 原始大小:', Buffer.byteLength(processedContent, 'utf-8'), '字节');
         console.log('✓ 压缩后大小:', compressed.length, '字节');
         console.log('✓ 压缩比:', ((1 - compressed.length / Buffer.byteLength(processedContent, 'utf-8')) * 100).toFixed(2) + '%');
