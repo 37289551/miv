@@ -23,7 +23,7 @@ jobs:
         run: |
           OWNER=${{ github.repository_owner }}
           mkdir -p HD/output
-          curl -s https://raw.githubusercontent.com/${OWNER}/HD/main/output/result.m3u -o HD/output/result.m3u
+          curl -s https://raw.githubusercontent.com/${OWNER}/HD/master/output/result.m3u -o HD/output/result.m3u
           node mergeChannels.js
       - name: 推送
         run: |
