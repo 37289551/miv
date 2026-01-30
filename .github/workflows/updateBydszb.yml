@@ -37,7 +37,7 @@ jobs:
           if ! git diff --quiet --exit-code || [ -n "$(git status --porcelain)" ]; then
             git config user.name "GitHub Actions"
             git config user.email "actions@github.com"
-            git add mivgo.gz add mivgo.m3u
+            git add mivgo.gz mivgo.m3u
             git commit -m "Update mivgo.gz by GitHub Actions"
             git push origin main
           fi
