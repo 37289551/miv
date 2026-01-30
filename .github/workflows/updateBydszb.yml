@@ -35,13 +35,7 @@ jobs:
             git push
           fi
       - name: cnb
-        env:
-          CNB_PAT: ${{ secrets.CNB_PAT }}
         run: |
-          if [ -z "$CNB_PAT" ]; then
-            echo "CNB_PAT secret not set, skipping push to cnb repository"
-            exit 0
-          fi
           OWNER=${{ github.repository_owner }}
           git clone https://${{ secrets.CNB_PAT }}@github.com/${OWNER}/cnb.git
           cp mivgo.gz cnb/
