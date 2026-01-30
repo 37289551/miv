@@ -29,9 +29,10 @@ jobs:
             git push
           fi
       - name: 推送到cnb仓库
+        if: secrets.CNB_PAT != ''
         run: |
           OWNER=${{ github.repository_owner }}
-          git clone https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${OWNER}/cnb.git
+          git clone https://${{ secrets.CNB_PAT }}@github.com/${OWNER}/cnb.git
           cp mivgo.gz cnb/
           cd cnb
           if ! git diff --quiet --exit-code || [ -n "$(git status --porcelain)" ]; then
