@@ -17,6 +17,8 @@ jobs:
           node-version: 18
       - name: 更新内容
         run: node fetchURLByzbpro.js
+      - name: 生成mivgo文件
+        run: node mivgo.js
       - name: 推送
         run: |
           if ! git diff --quiet --exit-code || [ -n "$(git status --porcelain)" ]; then
