@@ -28,13 +28,21 @@ function parseM3U(content) {
         }
 
         const groupMatch = line.match(/group-title="([^"]+)"/);
-        const nameMatch = line.match(/,([^,\n]+)$/);
-        const displayName = nameMatch ? nameMatch[1] : '';
+        const tvgNameMatch = line.match(/tvg-name="([^"]+)"/);
+        const displayNameMatch = line.match(/,([^,\n]+)$/);
+
+        const tvgName = tvgNameMatch ? tvgNameMatch[1] : '';
+        const displayName = displayNameMatch ? displayNameMatch[1] : '';
         const group = groupMatch ? groupMatch[1] : '';
+
+        // 使用 tvg-name 作为主要匹配键，如果没有则使用显示名称
+        const nameKey = tvgName || displayName;
 
         channels.push({
             group,
             name: displayName,
+            tvgName: tvgName,
+            nameKey: nameKey,
             extinf: line,
             url: lines[i + 1] || ''
         });
@@ -94,37 +102,62 @@ function main() {
         console.log(`找到 ${mivgoCCTVChannels.size} 个央视频道`);
         console.log(`找到 ${mivgoSatelliteChannels.size} 个卫视频道`);
 
+        // 打印调试信息
+        console.log('mivgo 央视频道列表:', [...mivgoCCTVChannels.keys()]);
+        console.log('HD 央视频道前5个:', hdData.channels
+            .filter(ch => ch.group === '央视频道')
+            .slice(0, 5)
+            .map(ch => ({ name: ch.name, tvgName: ch.tvgName, nameKey: ch.nameKey })));
+
+        console.log('mivgo 卫视频道列表:', [...mivgoSatelliteChannels.keys()]);
+        console.log('HD 卫视频道前5个:', hdData.channels
+            .filter(ch => ch.group === '卫视频道')
+            .slice(0, 5)
+            .map(ch => ({ name: ch.name, tvgName: ch.tvgName, nameKey: ch.nameKey })));
+
         // 构建新的频道列表
         const newChannels = [];
         const processedNames = new Set();
 
+        // 先构建分组映射，按名称分组并保持原始顺序
+        const hdChannelGroups = new Map();
         for (const channel of hdData.channels) {
-            const key = channel.name;
+            const key = `${channel.nameKey}|${channel.group}`;
+            if (!hdChannelGroups.has(key)) {
+                hdChannelGroups.set(key, []);
+            }
+            hdChannelGroups.get(key).push(channel);
+        }
+
+        let matchCount = 0;
+
+        for (const channel of hdData.channels) {
+            const key = channel.nameKey;
+            const groupKey = `${channel.nameKey}|${channel.group}`;
             const isCCTV = channel.group === '央视频道';
             const isSatellite = channel.group === '卫视频道';
 
-            if ((isCCTV && mivgoCCTVChannels.has(key)) || 
-                (isSatellite && mivgoSatelliteChannels.has(key))) {
-                
-                const mivgoChannels = isCCTV ? mivgoCCTVChannels : mivgoSatelliteChannels;
+            const mivgoChannels = isCCTV ? mivgoCCTVChannels : isSatellite ? mivgoSatelliteChannels : null;
 
-                if (!processedNames.has(key)) {
-                    // 覆盖前1-2条线路
-                    const replacementChannels = mivgoChannels.get(key);
-                    newChannels.push(...replacementChannels);
-                    processedNames.add(key);
+            if (mivgoChannels && mivgoChannels.has(key) && !processedNames.has(key)) {
+                // 覆盖前1-2条线路（使用 mivgo 的线路）
+                const replacementChannels = mivgoChannels.get(key);
+                newChannels.push(...replacementChannels);
+                processedNames.add(key);
+                matchCount++;
 
-                    // 保留 HD 的其他线路
-                    const remainingChannels = hdData.channels
-                        .filter(ch => ch.name === key && ch.group === channel.group)
-                        .slice(replacementChannels.length);
-
-                    newChannels.push(...remainingChannels);
+                // 保留 HD 的其他线路（从第 replacementChannels.length 条开始）
+                const hdChannels = hdChannelGroups.get(groupKey);
+                if (hdChannels && hdChannels.length > replacementChannels.length) {
+                    newChannels.push(...hdChannels.slice(replacementChannels.length));
                 }
-            } else {
+            } else if (!processedNames.has(key)) {
+                // 未匹配的频道，保持原样
                 newChannels.push(channel);
             }
         }
+
+        console.log(`✓ 匹配并覆盖了 ${matchCount} 个频道`);
 
         const outputContent = buildM3U(hdData.header, newChannels);
         writeFileSync(outputPath, outputContent, 'utf-8');
