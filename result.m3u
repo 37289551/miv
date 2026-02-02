@@ -266,9 +266,9 @@ http://39.152.103.17:8089/tsfile/live/1015_1.m3u8
 #EXTINF:-1 tvg-name="CCTV16" tvg-logo="CCTV16.png" group-title="央视频道",CCTV-16
 http://drive.mxmy.net:8888/udp/239.3.1.184:8001
 #EXTINF:-1 tvg-id="CCTV-17" tvg-name="CCTV-17" tvg-logo="" group-title="央视频道",CCTV-17
-http://pull-hs-f5.flive.douyincdn.com/media/stream-695234889566126764/index.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1770510943&major_anchor_level=common&sign=dd29a839e4c1695baa854e62d1520175&t_id=037-20260201083542E2A9E7FA3B89F8A17BA8-arf6Qh&volcSecret=dd29a839e4c1695baa854e62d1520175&volcTime=1770510943
+http://pull-hs-f5.flive.douyincdn.com/media/stream-695241375974687404/index.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1770599464&major_anchor_level=common&sign=ef360937e5ddb9fd2b594b8ad4572d41&t_id=037-20260202091103524BCD0E20DF4EDDA9B1-R6Hnle&volcSecret=ef360937e5ddb9fd2b594b8ad4572d41&volcTime=1770599464
 #EXTINF:-1 tvg-id="CCTV-17" tvg-name="CCTV-17" tvg-logo="" group-title="央视频道",CCTV-17
-http://pull-hs-f5.flive.douyincdn.com/media/stream-695234889566126764/index.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1770510943&major_anchor_level=common&sign=dd29a839e4c1695baa854e62d1520175&t_id=037-20260201083542E2A9E7FA3B89F8A17BA8-arf6Qh&volcSecret=dd29a839e4c1695baa854e62d1520175&volcTime=1770510943
+http://pull-hs-f5.flive.douyincdn.com/media/stream-695241375974687404/index.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1770599464&major_anchor_level=common&sign=ef360937e5ddb9fd2b594b8ad4572d41&t_id=037-20260202091103524BCD0E20DF4EDDA9B1-R6Hnle&volcSecret=ef360937e5ddb9fd2b594b8ad4572d41&volcTime=1770599464
 #EXTINF:-1 tvg-name="CCTV17" tvg-logo="CCTV17.png" group-title="央视频道",CCTV-17
 http://120.238.94.10:9901/tsfile/live/1048_1.m3u8
 #EXTINF:-1 tvg-name="CCTV17" tvg-logo="CCTV17.png" group-title="央视频道",CCTV-17
