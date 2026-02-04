@@ -185,10 +185,10 @@ http://120.238.94.10:9901/tsfile/live/1028_1.m3u8
 http://120.211.62.180:8000/hls/10/index.m3u8
 #EXTINF:-1 tvg-name="CCTV10" tvg-logo="CCTV10.png" group-title="央视频道",CCTV-10
 http://61.136.172.236:9901/tsfile/live/0010_1.m3u8
-#EXTINF:-1 tvg-id="CCTV-11" tvg-name="CCTV-11" tvg-logo="" group-title="央视频道",CCTV-11
-http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/cctv11hd/51/20200103/index.m3u8?msisdn=20260204113829c1be27600a28441fbdb736abd0380541&mdspid=&spid=699004&netType=0&sid=5500988610&pid=2028597139&timestamp=20260204113829&Channel_ID=0116_2600036500-99000-201600010014094&ProgramID=667987558&ParentNodeID=-99&assertID=5500988610&client_ip=125.211.195.91&SecurityKey=20260204113829&promotionId=&mvid=5102751362&mcid=500020&playurlVersion=WX-A1-9.1.1.3-RELEASE&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=80ace830b7ce1a75f6fba5e387921364&sv=10004&ct=android
-#EXTINF:-1 tvg-id="CCTV-11" tvg-name="CCTV-11" tvg-logo="" group-title="央视频道",CCTV-11
-http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/cctv11hd/51/20200103/index.m3u8?msisdn=20260204113829c1be27600a28441fbdb736abd0380541&mdspid=&spid=699004&netType=0&sid=5500988610&pid=2028597139&timestamp=20260204113829&Channel_ID=0116_2600036500-99000-201600010014094&ProgramID=667987558&ParentNodeID=-99&assertID=5500988610&client_ip=125.211.195.91&SecurityKey=20260204113829&promotionId=&mvid=5102751362&mcid=500020&playurlVersion=WX-A1-9.1.1.3-RELEASE&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=80ace830b7ce1a75f6fba5e387921364&sv=10004&ct=android
+#EXTINF:-1 tvg-name="CCTV11" tvg-logo="CCTV11.png" group-title="央视频道",CCTV-11
+http://69.30.246.194/live/cctv11.m3u8
+#EXTINF:-1 tvg-name="CCTV11" tvg-logo="CCTV11.png" group-title="央视频道",CCTV-11
+http://38.75.136.137:98/gslb/dsdqbv/cctv11hd.m3u8?auth=test20251009
 #EXTINF:-1 tvg-name="CCTV11" tvg-logo="CCTV11.png" group-title="央视频道",CCTV-11
 http://120.238.94.10:9901/tsfile/live/1029_1.m3u8
 #EXTINF:-1 tvg-name="CCTV11" tvg-logo="CCTV11.png" group-title="央视频道",CCTV-11
@@ -553,10 +553,10 @@ http://112.27.235.94:8000/hls/44/index.m3u8
 http://36.32.174.67:60080/newlive/live/hls/31/live.m3u8
 #EXTINF:-1 tvg-name="江西卫视" tvg-logo="江西卫视.png" group-title="卫视频道",江西卫视
 http://23.237.228.134/live8/jiangxi.m3u8
-#EXTINF:-1 tvg-name="辽宁卫视" tvg-logo="辽宁卫视.png" group-title="卫视频道",辽宁卫视
-http://38.75.136.137:98/gslb/dsdqpub/lnwshd.m3u8?auth=testpub
-#EXTINF:-1 tvg-name="辽宁卫视" tvg-logo="辽宁卫视.png" group-title="卫视频道",辽宁卫视
-http://39.152.103.17:8089/tsfile/live/1024_1.m3u8
+#EXTINF:-1 tvg-id="辽宁卫视" tvg-name="辽宁卫视" tvg-logo="" group-title="卫视频道",辽宁卫视
+http://hlsztemgsplive.miguvideo.com:8080/wd_r2/2018/ocn/liaoningwshd/2000/index.m3u8?msisdn=202602041725119c1ea6d499f3472a9f8440dae33d099b&mdspid=&spid=600572&netType=0&sid=5910022198&pid=2028597139&timestamp=20260204172511&Channel_ID=0116_2600036500-99000-201600010014099&ProgramID=630291707&ParentNodeID=-99&assertID=5910022198&client_ip=125.211.195.200&SecurityKey=20260204172511&promotionId=&mvid=5101043014&mcid=500020&playurlVersion=WX-A1-9.1.1.3-RELEASE&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=d0f8ce42e4d99dc746ce58c110e860d8&sv=10004&ct=android
+#EXTINF:-1 tvg-id="辽宁卫视" tvg-name="辽宁卫视" tvg-logo="" group-title="卫视频道",辽宁卫视
+http://hlsztemgsplive.miguvideo.com:8080/wd_r2/2018/ocn/liaoningwshd/2000/index.m3u8?msisdn=202602041725119c1ea6d499f3472a9f8440dae33d099b&mdspid=&spid=600572&netType=0&sid=5910022198&pid=2028597139&timestamp=20260204172511&Channel_ID=0116_2600036500-99000-201600010014099&ProgramID=630291707&ParentNodeID=-99&assertID=5910022198&client_ip=125.211.195.200&SecurityKey=20260204172511&promotionId=&mvid=5101043014&mcid=500020&playurlVersion=WX-A1-9.1.1.3-RELEASE&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=d0f8ce42e4d99dc746ce58c110e860d8&sv=10004&ct=android
 #EXTINF:-1 tvg-name="辽宁卫视" tvg-logo="辽宁卫视.png" group-title="卫视频道",辽宁卫视
 http://61.184.46.85:9901/tsfile/live/1017_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="辽宁卫视" tvg-logo="辽宁卫视.png" group-title="卫视频道",辽宁卫视
