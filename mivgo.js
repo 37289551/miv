@@ -2,7 +2,7 @@ import { readFileSync, writeFileSync } from 'fs';
 import { resolve } from 'path';
 import https from 'https';
 
-const inputUrl = 'https://github.com/develop202/migu_video/raw/refs/heads/main/interface.txt';
+const inputUrl = 'https://raw.githubusercontent.com/develop202/migu_video/main/interface.txt';
 const outputGzPath = resolve('./mivgo.gz');
 const outputM3uPath = resolve('./mivgo.m3u');
 
@@ -11,13 +11,23 @@ import { gzipSync } from 'zlib';
 // 从远程 URL 读取内容
 function fetchRemoteContent(url) {
     return new Promise((resolve, reject) => {
-        https.get(url, (res) => {
+        const options = {
+            headers: {
+                'User-Agent': 'GitHub Actions/1.0'
+            }
+        };
+        
+        https.get(url, options, (res) => {
             let data = '';
             res.on('data', (chunk) => {
                 data += chunk;
             });
             res.on('end', () => {
-                resolve(data);
+                if (data.length === 0) {
+                    reject(new Error('远程文件内容为空'));
+                } else {
+                    resolve(data);
+                }
             });
         }).on('error', (err) => {
             reject(err);
@@ -212,4 +222,3 @@ main().catch(error => {
     console.error('✗ 处理失败:', error.message);
     process.exit(1);
 });
-
