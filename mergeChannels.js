@@ -1,9 +1,27 @@
 import { readFileSync, writeFileSync } from 'fs';
 import { resolve } from 'path';
+import https from 'https';
 
 const hdRepoPath = resolve('./HD/output/result.m3u');
-const mivgoPath = resolve('./mivgo.m3u');
+const mivgoUrl = 'https://github.com/develop202/migu_video/raw/refs/heads/main/interface.txt';
 const outputPath = resolve('./result.m3u');
+
+// 从远程 URL 读取内容
+function fetchRemoteContent(url) {
+    return new Promise((resolve, reject) => {
+        https.get(url, (res) => {
+            let data = '';
+            res.on('data', (chunk) => {
+                data += chunk;
+            });
+            res.on('end', () => {
+                resolve(data);
+            });
+        }).on('error', (err) => {
+            reject(err);
+        });
+    });
+}
 
 // 标准化频道名称，用于匹配
 function normalizeChannelName(name) {
@@ -72,14 +90,14 @@ function buildM3U(header, channels) {
     return lines.join('\n');
 }
 
-function main() {
+async function main() {
     try {
         console.log('读取 HD 仓库文件...');
         const hdContent = readFileSync(hdRepoPath, 'utf-8');
         const hdData = parseM3U(hdContent);
 
-        console.log('读取 mivgo.m3u 文件...');
-        const mivgoContent = readFileSync(mivgoPath, 'utf-8');
+        console.log('读取远程 interface.txt 文件...');
+        const mivgoContent = await fetchRemoteContent(mivgoUrl);
         const mivgoData = parseM3U(mivgoContent);
 
         const mivgoCCTVChannels = mivgoData.channels
@@ -173,4 +191,7 @@ function main() {
     }
 }
 
-main();
+main().catch(error => {
+    console.error('✗ 处理失败:', error.message);
+    process.exit(1);
+});
