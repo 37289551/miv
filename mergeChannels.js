@@ -25,7 +25,7 @@ function fetchRemoteContent(url) {
 
 // 标准化频道名称，用于匹配
 function normalizeChannelName(name) {
-    // 处理 CCTV 频道
+    // 处理 CCTV 频道（支持 CCTV1、CCTV1+、CCTV1综合 等格式）
     const cctvMatch = name.match(/^CCTV(\d+[+]?)/);
     if (cctvMatch) {
         return `CCTV-${cctvMatch[1]}`;
@@ -103,11 +103,11 @@ async function main() {
         const mivgoCCTVChannels = mivgoData.channels
             .filter(ch => ch.group === '央视频道')
             .reduce((acc, ch) => {
-                if (!acc.has(ch.name)) {
-                    acc.set(ch.name, []);
+                if (!acc.has(ch.nameKey)) {
+                    acc.set(ch.nameKey, []);
                 }
-                if (acc.get(ch.name).length < 2) {
-                    acc.get(ch.name).push(ch);
+                if (acc.get(ch.nameKey).length < 2) {
+                    acc.get(ch.nameKey).push(ch);
                 }
                 return acc;
             }, new Map());
@@ -115,11 +115,11 @@ async function main() {
         const mivgoSatelliteChannels = mivgoData.channels
             .filter(ch => ch.group === '卫视频道')
             .reduce((acc, ch) => {
-                if (!acc.has(ch.name)) {
-                    acc.set(ch.name, []);
+                if (!acc.has(ch.nameKey)) {
+                    acc.set(ch.nameKey, []);
                 }
-                if (acc.get(ch.name).length < 2) {
-                    acc.get(ch.name).push(ch);
+                if (acc.get(ch.nameKey).length < 2) {
+                    acc.get(ch.nameKey).push(ch);
                 }
                 return acc;
             }, new Map());

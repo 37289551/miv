@@ -1,11 +1,29 @@
 import { readFileSync, writeFileSync } from 'fs';
 import { resolve } from 'path';
+import https from 'https';
 
-const inputFilePath = resolve('./interface.txt');
+const inputUrl = 'https://github.com/develop20/migu_video/raw/refs/heads/main/interface.txt';
 const outputGzPath = resolve('./mivgo.gz');
 const outputM3uPath = resolve('./mivgo.m3u');
 
 import { gzipSync } from 'zlib';
+
+// 从远程 URL 读取内容
+function fetchRemoteContent(url) {
+    return new Promise((resolve, reject) => {
+        https.get(url, (res) => {
+            let data = '';
+            res.on('data', (chunk) => {
+                data += chunk;
+            });
+            res.on('end', () => {
+                resolve(data);
+            });
+        }).on('error', (err) => {
+            reject(err);
+        });
+    });
+}
 
 function normalizeCCTVName(name) {
     const cctvMatch = name.match(/^CCTV(\d+[+]?)/);
@@ -167,9 +185,10 @@ function processInterfaceFile(content) {
     return outputLines.join('\n');
 }
 
-function main() {
+async function main() {
     try {
-        const content = readFileSync(inputFilePath, 'utf-8');
+        console.log('读取远程 interface.txt 文件...');
+        const content = await fetchRemoteContent(inputUrl);
         const processedContent = processInterfaceFile(content);
         
         // 输出 m3u 格式文件
@@ -189,4 +208,7 @@ function main() {
     }
 }
 
-main();
+main().catch(error => {
+    console.error('✗ 处理失败:', error.message);
+    process.exit(1);
+});
