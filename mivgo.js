@@ -2,7 +2,7 @@ import { readFileSync, writeFileSync } from 'fs';
 import { resolve } from 'path';
 import https from 'https';
 
-const inputUrl = 'https://github.com/develop20/migu_video/raw/refs/heads/main/interface.txt';
+const inputUrl = 'https://github.com/develop202/migu_video/raw/refs/heads/main/interface.txt';
 const outputGzPath = resolve('./mivgo.gz');
 const outputM3uPath = resolve('./mivgo.m3u');
 
@@ -212,3 +212,4 @@ main().catch(error => {
     console.error('✗ 处理失败:', error.message);
     process.exit(1);
 });
+
