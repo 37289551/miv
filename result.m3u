@@ -11,10 +11,10 @@ http://38.75.136.137:98/gslb/dsdqpub/cctv3hd.m3u8?auth=testpub
 http://112.27.235.94:8000/hls/2/index.m3u8
 #EXTINF:-1 tvg-name="CCTV2" tvg-logo="CCTV2.png" group-title="央视频道",CCTV-2
 http://58.57.40.22:9901/tsfile/live/1001_1.m3u8
-#EXTINF:-1 tvg-id="CCTV-4" tvg-name="CCTV-4" tvg-logo="" group-title="央视频道",CCTV-4
-http://pull-hls-f11.douyincdn.com/media/stream-695355672847450796.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1772282184&major_anchor_level=common&sign=472fe0662e2599801081838de1ab15a3&t_id=037-202602212036241A323093D1BEBDE87AB0-aGhIqa
-#EXTINF:-1 tvg-id="CCTV-4" tvg-name="CCTV-4" tvg-logo="" group-title="央视频道",CCTV-4
-http://pull-hls-f11.douyincdn.com/media/stream-695355672847450796.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1772282184&major_anchor_level=common&sign=472fe0662e2599801081838de1ab15a3&t_id=037-202602212036241A323093D1BEBDE87AB0-aGhIqa
+#EXTINF:-1 tvg-name="CCTV4" tvg-logo="CCTV4.png" group-title="央视频道",CCTV-4
+https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_key=1771765200-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-918e706c28257b40d5d1c230f7375f12&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c
+#EXTINF:-1 tvg-name="CCTV4" tvg-logo="CCTV4.png" group-title="央视频道",CCTV-4
+http://112.27.235.94:8000/hls/4/index.m3u8
 #EXTINF:-1 tvg-name="CCTV4" tvg-logo="CCTV4.png" group-title="央视频道",CCTV-4
 http://vip1.xinketongxun.fun:8082/tsfile/live/1026_1.m3u8
 #EXTINF:-1 tvg-name="CCTV4" tvg-logo="CCTV4.png" group-title="央视频道",CCTV-4
@@ -60,9 +60,9 @@ http://112.27.235.94:8000/hls/13/index.m3u8
 #EXTINF:-1 tvg-name="CCTV12" tvg-logo="CCTV12.png" group-title="央视频道",CCTV-12
 http://58.57.40.22:9901/tsfile/live/1012_1.m3u8
 #EXTINF:-1 tvg-id="CCTV-13" tvg-name="CCTV-13" tvg-logo="" group-title="央视频道",CCTV-13
-http://hlsztemgsplive.miguvideo.com:8080/envivo_x/2018/SD/cctv13/2000/index.m3u8?msisdn=4f89b0f1d885527a227fd4a636419cfe&mdspid=&spid=699004&netType=4&sid=2202208864&pid=2028597139&timestamp=20260221172531&Channel_ID=0116_2600031500-99000-200300140100004&ProgramID=608807423&ParentNodeID=-99&assertID=2202208864&client_ip=123.4.227.234&SecurityKey=20260221172531&promotionId=&mvid=2202208864&mcid=500020&playurlVersion=WX-A1-9.2.1-RELEASE&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=0a33dfaaa98d09fb8b48439c4dd47362&sv=10004&ct=android&playUrlSsn=4f89b0f1d885527a227fd4a636419cfe1771665928913&prlId=4f89b0f1d885527a227fd4a636419cfe1771665928928&jid=4f89b0f1d885527a227fd4a636419cfe1771665928060V&is_advertise=0&sjid=subsession_1771665971159
+http://pull-f3.douyincdn.com/media/stream-118897788371075756.m3u8?arch_hrchy=w1&auth_key=1772318401-0-0-0495d9ea53eaeee0817a9833e7c242ac&exp_hrchy=w1&major_anchor_level=common&t_id=037-20260222071000E40F471219EACC3094BD-I6na7c
 #EXTINF:-1 tvg-id="CCTV-13" tvg-name="CCTV-13" tvg-logo="" group-title="央视频道",CCTV-13
-http://hlsztemgsplive.miguvideo.com:8080/envivo_x/2018/SD/cctv13/2000/index.m3u8?msisdn=4f89b0f1d885527a227fd4a636419cfe&mdspid=&spid=699004&netType=4&sid=2202208864&pid=2028597139&timestamp=20260221172531&Channel_ID=0116_2600031500-99000-200300140100004&ProgramID=608807423&ParentNodeID=-99&assertID=2202208864&client_ip=123.4.227.234&SecurityKey=20260221172531&promotionId=&mvid=2202208864&mcid=500020&playurlVersion=WX-A1-9.2.1-RELEASE&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=0a33dfaaa98d09fb8b48439c4dd47362&sv=10004&ct=android&playUrlSsn=4f89b0f1d885527a227fd4a636419cfe1771665928913&prlId=4f89b0f1d885527a227fd4a636419cfe1771665928928&jid=4f89b0f1d885527a227fd4a636419cfe1771665928060V&is_advertise=0&sjid=subsession_1771665971159
+http://pull-f3.douyincdn.com/media/stream-118897788371075756.m3u8?arch_hrchy=w1&auth_key=1772318401-0-0-0495d9ea53eaeee0817a9833e7c242ac&exp_hrchy=w1&major_anchor_level=common&t_id=037-20260222071000E40F471219EACC3094BD-I6na7c
 #EXTINF:-1 tvg-name="CCTV16" tvg-logo="CCTV16.png" group-title="央视频道",CCTV-16
 http://69.30.246.194/live/cctv16.m3u8
 #EXTINF:-1 tvg-name="CCTV14" tvg-logo="CCTV14.png" group-title="央视频道",CCTV-14
