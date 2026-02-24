@@ -65,8 +65,10 @@ http://58.57.40.22:9901/tsfile/live/1012_1.m3u8
 http://pull-hls-f11.douyincdn.com/media/stream-695364351288148652.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1772429160&major_anchor_level=common&sign=c3afd9cc5fd514ab3283b7ef634591f8&t_id=037-20260223132600E2615F6616C60DCE874C-eVkiIY
 #EXTINF:-1 tvg-id="CCTV-13" tvg-name="CCTV-13" tvg-logo="" group-title="央视频道",CCTV-13
 http://pull-hls-f11.douyincdn.com/media/stream-695365272562303660.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1772429111&major_anchor_level=common&sign=10fca6fe9e747abc153fc55ac3802b10&t_id=037-20260223132511384C2E852DE6485D4D5E-FCV5uD
-#EXTINF:-1 tvg-name="CCTV16" tvg-logo="CCTV16.png" group-title="央视频道",CCTV-16
+#EXTINF:-1 tvg-id="CCTV-16" tvg-name="CCTV-16" tvg-logo="" group-title="央视频道",CCTV-16
 http://69.30.246.194/live/cctv16.m3u8
+#EXTINF:-1 tvg-id="CCTV-16" tvg-name="CCTV-16" tvg-logo="" group-title="央视频道",CCTV-16
+http://38.75.136.137:98/gslb/dsdqpub/cctv16hd.m3u8?auth=testpub
 #EXTINF:-1 tvg-name="CCTV14" tvg-logo="CCTV14.png" group-title="央视频道",CCTV-14
 http://112.27.235.94:8000/hls/15/index.m3u8
 #EXTINF:-1 tvg-name="CCTV14" tvg-logo="CCTV14.png" group-title="央视频道",CCTV-14
@@ -96,7 +98,7 @@ http://58.57.40.22:9901/tsfile/live/1029_1.m3u8
 #EXTINF:-1 tvg-id="湖南卫视" tvg-name="湖南卫视" tvg-logo="" group-title="卫视频道",湖南卫视
 http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/Y2RuZXhfaWQ9YWxfaGxzX2xkdnQmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8
 #EXTINF:-1 tvg-id="湖南卫视" tvg-name="湖南卫视" tvg-logo="" group-title="卫视频道",湖南卫视
-http://38.75.136.137:98/gslb/dsdqpub/hnwshd.m3u8?auth=testpub
+http://69.30.246.194/live/hnws.m3u8
 #EXTINF:-1 tvg-name="湖北卫视" tvg-logo="湖北卫视.png" group-title="卫视频道",湖北卫视
 http://23.237.228.134/live6/hubei.m3u8
 #EXTINF:-1 tvg-name="湖北卫视" tvg-logo="湖北卫视.png" group-title="卫视频道",湖北卫视
@@ -139,10 +141,10 @@ http://nn.7x9d.cn/地方台8563/海南.php?id=hnws
 http://120.76.248.139/live/bfgd/4200000473.m3u8
 #EXTINF:-1 tvg-name="海南卫视" tvg-logo="海南卫视.png" group-title="卫视频道",海南卫视
 http://58.57.40.22:9901/tsfile/live/1000_1.m3u8
-#EXTINF:-1 tvg-id="河南卫视" tvg-name="河南卫视" tvg-logo="" group-title="卫视频道",河南卫视
-http://38.75.136.137:98/gslb/dsdqpub/hawshd.m3u8?auth=testpub
-#EXTINF:-1 tvg-id="河南卫视" tvg-name="河南卫视" tvg-logo="" group-title="卫视频道",河南卫视
-http://38.75.136.137:98/gslb/dsdqpub/hawshd.m3u8?auth=testpub
+#EXTINF:-1 tvg-name="河南卫视" tvg-logo="河南卫视.png" group-title="卫视频道",河南卫视
+http://1.94.31.214/php/hntv.php?id=hnws
+#EXTINF:-1 tvg-name="河南卫视" tvg-logo="河南卫视.png" group-title="卫视频道",河南卫视
+http://112.27.235.94:8000/hls/37/index.m3u8
 #EXTINF:-1 tvg-name="河南卫视" tvg-logo="河南卫视.png" group-title="卫视频道",河南卫视
 http://121.12.173.61/tvcdn.stream3.hndt.com/tv/65c4a6d5017e1000b2b6ea2500000000_transios/playlist.m3u8?wsSecret=3c46f50dce80121c357dac52cf46dc54&wsTime=1771895361&wsSession=2458b905ed4d4e4a036cd2da-177188434679958&wsIPSercert=f1ed5e80c31ab65580d88c6bbb451005&wsiphost=local&wsBindIP=1
 #EXTINF:-1 tvg-name="河南卫视" tvg-logo="河南卫视.png" group-title="卫视频道",河南卫视
