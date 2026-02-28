@@ -1,5 +1,5 @@
 央视频道,#genre#
-CCTV1综合,http://pull-hls-f1.douyincdn.com/media/stream-407161098730734252/playlist.m3u8?arch_hrchy=w1&exp_hrchy=w1&keeptime=00093a80&major_anchor_level=common&t_id=037-202602280645225784ED0C4F6DD6D7B5C1-Ffcjsc&wsSecret=4e8d8d5c92b6d0c9bad16567c095791d&wsTime=69a21e83
+CCTV1综合,http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/cctv1hd265/51/20191230/01.m3u8?msisdn=c51d5bdf7da3f733f5f7fec9903f7fae&mdspid=&spid=699004&netType=4&sid=2201057821&pid=2028597139&timestamp=20260228090606&Channel_ID=0116_2600031500-99000-200300140100004&ProgramID=608807420&ParentNodeID=-99&assertID=2201057821&client_ip=36.137.85.25&SecurityKey=20260228090606&promotionId=&mvid=2201057821&mcid=500020&playurlVersion=ZQ-A1-9.2.1-RELEASE&userid=&jmhm=&videocodec=h265&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&mtv_session=bba55f03a58b9215d259317a6a3dffaf&sv=10004&ct=android&playUrlSsn=c51d5bdf7da3f733f5f7fec9903f7fae1772240766524&prlId=c51d5bdf7da3f733f5f7fec9903f7fae1772240766526&jid=c51d5bdf7da3f733f5f7fec9903f7fae1772240765714V&is_advertise=0&sjid=subsession_1772240767243&HlsSubType=1&HlsProfileId=1&nphaid=0&encrypt=721f7b326dc56ba529ae8ec87f363d39
 CCTV1综合,http://38.75.136.137:98/gslb/dsdqpub/cctv1hd.m3u8?auth=testpub
 CCTV1综合,http://play.kankanlive.com/live/1698234869325962.m3u8
 CCTV2财经,http://116.115.6.103:1234/631780532?token=R/mg&auth=
@@ -10,6 +10,7 @@ CCTV6电影,http://116.115.6.103:1234/624878396?token=R/mg&auth=
 CCTV8电视剧,http://116.115.6.103:1234/624878356?token=R/mg&auth=
 CCTV5+体育赛事,http://116.115.6.103:1234/641886773?token=R/mg&auth=
 CCTV11戏曲,http://116.115.6.103:1234/667987558?token=R/mg&auth=
+CCTV13新闻,http://pull-hs-f5.flive.douyincdn.com/media/stream-407136188858892972/index.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1772845895&major_anchor_level=common&sign=82922053e1dbaea5046b67e5557a2655&t_id=037-2026022809113434D23D9A36E47ECBA28C-ngAKB5&volcSecret=82922053e1dbaea5046b67e5557a2655&volcTime=1772845895
 CCTV13新闻,http://116.115.6.103:1234/608807423?token=R/mg&auth=
 CCTV15音乐,http://116.115.6.103:1234/673168223?token=R/mg&auth=
 CCTV16奥林匹克,http://38.75.136.137:98/gslb/dsdqpub/cctv16hd.m3u8?auth=testpub
@@ -20,9 +21,10 @@ CCTV16奥林匹克,http://38.75.136.137:98/gslb/dsdqpub/cctv16hd.m3u8?auth=testp
 东方卫视,http://116.115.6.103:1234/651632648?token=R/mg&auth=
 湖北卫视,http://116.115.6.103:1234/947472496?token=R/mg&auth=
 江西卫视,http://116.115.6.103:1234/783847495?token=R/mg&auth=
-陕西卫视,http://116.115.6.103:1234/738910838?token=R/mg&auth=
+海南卫视,http://116.115.6.103:1234/947472502?token=R/mg&auth=
 广东地区,#genre#
 广东民生,http://183.11.239.36:808/hls/18/index.m3u8
+广东体育,http://120.238.85.131:9901/tsfile/live/1013_1.m3u8?key=txiptv&playlive=0&authid=0
 广东少儿,http://120.238.85.131:9901/tsfile/live/1018_1.m3u8?key=txiptv&playlive=0&authid=0
 广东影视,http://120.238.85.131:9901/tsfile/live/1017_1.m3u8?key=txiptv&playlive=0&authid=0
 广东4K超高清,http://183.11.239.36:808/hls/9/index.m3u8
@@ -76,7 +78,6 @@ CCTV16奥林匹克,http://38.75.136.137:98/gslb/dsdqpub/cctv16hd.m3u8?auth=testp
 无锡生活,http://stream.thmz.com/wxtv4/sd/live.m3u8
 无锡娱乐,http://stream.thmz.com/wxtv2/sd/live.m3u8
 无锡经济,http://stream.thmz.com/wxtv5/sd/live.m3u8
-宜兴新闻综合,http://yixing-tv-ori-hls.jstv.com/yixing-tv-ori/yixing_xw.m3u8
 北京地区,#genre#
 黑龙江地区,#genre#
 哈尔滨新闻综合,https://stream.hrbtv.net/xwzh/sd/live.m3u8
@@ -311,7 +312,7 @@ CCTV16奥林匹克,http://38.75.136.137:98/gslb/dsdqpub/cctv16hd.m3u8?auth=testp
 青海地区,#genre#
 放映室6,#genre#
 超清频道,#genre#
-CCTV1超清,http://pull-hls-f1.douyincdn.com/media/stream-407161098730734252/playlist.m3u8?arch_hrchy=w1&exp_hrchy=w1&keeptime=00093a80&major_anchor_level=common&t_id=037-202602280645225784ED0C4F6DD6D7B5C1-Ffcjsc&wsSecret=4e8d8d5c92b6d0c9bad16567c095791d&wsTime=69a21e83
+CCTV1超清,http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/cctv1hd265/51/20191230/01.m3u8?msisdn=c51d5bdf7da3f733f5f7fec9903f7fae&mdspid=&spid=699004&netType=4&sid=2201057821&pid=2028597139&timestamp=20260228090606&Channel_ID=0116_2600031500-99000-200300140100004&ProgramID=608807420&ParentNodeID=-99&assertID=2201057821&client_ip=36.137.85.25&SecurityKey=20260228090606&promotionId=&mvid=2201057821&mcid=500020&playurlVersion=ZQ-A1-9.2.1-RELEASE&userid=&jmhm=&videocodec=h265&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&mtv_session=bba55f03a58b9215d259317a6a3dffaf&sv=10004&ct=android&playUrlSsn=c51d5bdf7da3f733f5f7fec9903f7fae1772240766524&prlId=c51d5bdf7da3f733f5f7fec9903f7fae1772240766526&jid=c51d5bdf7da3f733f5f7fec9903f7fae1772240765714V&is_advertise=0&sjid=subsession_1772240767243&HlsSubType=1&HlsProfileId=1&nphaid=0&encrypt=721f7b326dc56ba529ae8ec87f363d39
 CCTV1超清,http://38.75.136.137:98/gslb/dsdqpub/cctv1hd.m3u8?auth=testpub
 CCTV2超清,http://116.115.6.103:1234/631780532?token=R/mg&auth=
 CCTV3超清,http://38.75.136.137:98/gslb/dsdqpub/cctv3hd.m3u8?auth=testpub
@@ -322,6 +323,7 @@ CCTV6超清,http://116.115.6.103:1234/624878396?token=R/mg&auth=
 CCTV8超清,http://116.115.6.103:1234/624878356?token=R/mg&auth=
 CCTV10超清,http://116.115.6.103:1234/624878405?token=R/mg&auth=
 CCTV12超清,http://116.115.6.103:1234/673168185?token=R/mg&auth=
+CCTV13超清,http://pull-hs-f5.flive.douyincdn.com/media/stream-407136188858892972/index.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1772845895&major_anchor_level=common&sign=82922053e1dbaea5046b67e5557a2655&t_id=037-2026022809113434D23D9A36E47ECBA28C-ngAKB5&volcSecret=82922053e1dbaea5046b67e5557a2655&volcTime=1772845895
 CCTV14超清,http://116.115.6.103:1234/624878440?token=R/mg&auth=
 CCTV16超清,http://38.75.136.137:98/gslb/dsdqpub/cctv16hd.m3u8?auth=testpub
 CCTV17超清,http://116.115.6.103:1234/673168256?token=R/mg&auth=
