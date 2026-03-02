@@ -27,6 +27,8 @@ http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/cctv6hd265/54/20200407/01.m3
 http://116.115.6.103:1234/624878396?reptoken=R/mg&auth=
 #EXTINF:-1 tvg-id="CCTV-8" tvg-name="CCTV-8" tvg-logo="" group-title="央视频道",CCTV-8
 http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/cctv8hd265/54/20200407/01.m3u8?msisdn=c51d5bdf7da3f733f5f7fec9903f7fae&mdspid=&spid=699004&netType=4&sid=5500212868&pid=2028597139&timestamp=20260302114044&Channel_ID=0116_2600031500-99000-200300140100004&ProgramID=624878356&ParentNodeID=-99&assertID=5500212868&client_ip=220.197.44.162&SecurityKey=20260302114044&promotionId=&mvid=5100001695&mcid=500020&playurlVersion=ZQ-A1-9.2.2-RELEASE&userid=&jmhm=&videocodec=h265&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&mtv_session=887bc23b32caa006a78bd3954c481e3b&sv=10004&ct=android&playUrlSsn=c51d5bdf7da3f733f5f7fec9903f7fae1772422843853&prlId=c51d5bdf7da3f733f5f7fec9903f7fae1772422843854&jid=c51d5bdf7da3f733f5f7fec9903f7fae1772422843555V&is_advertise=0&sjid=subsession_1772422952026&HlsSubType=1&HlsProfileId=1&nphaid=0&encrypt=927adcf2799651c99413dbb31f7971bb
+#EXTINF:-1 tvg-id="CCTV-8" tvg-name="CCTV-8" tvg-logo="" group-title="央视频道",CCTV-8
+http://116.115.6.103:1234/624878356?reptoken=R/mg&auth=
 #EXTINF:-1 tvg-id="CCTV-5+" tvg-name="CCTV-5+" tvg-logo="" group-title="央视频道",CCTV-5+
 http://116.115.6.103:1234/641886773?reptoken=R/mg&auth=
 #EXTINF:-1 tvg-id="CCTV-11" tvg-name="CCTV-11" tvg-logo="" group-title="央视频道",CCTV-11
@@ -149,6 +151,8 @@ http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/cctv6hd265/54/20200407/01.m3
 http://116.115.6.103:1234/624878396?reptoken=R/mg&auth=
 #EXTINF:-1 tvg-id="CCTV-8" tvg-name="CCTV-8" tvg-logo="" group-title="央视频道",CCTV-8
 http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/cctv8hd265/54/20200407/01.m3u8?msisdn=c51d5bdf7da3f733f5f7fec9903f7fae&mdspid=&spid=699004&netType=4&sid=5500212868&pid=2028597139&timestamp=20260302114044&Channel_ID=0116_2600031500-99000-200300140100004&ProgramID=624878356&ParentNodeID=-99&assertID=5500212868&client_ip=220.197.44.162&SecurityKey=20260302114044&promotionId=&mvid=5100001695&mcid=500020&playurlVersion=ZQ-A1-9.2.2-RELEASE&userid=&jmhm=&videocodec=h265&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&mtv_session=887bc23b32caa006a78bd3954c481e3b&sv=10004&ct=android&playUrlSsn=c51d5bdf7da3f733f5f7fec9903f7fae1772422843853&prlId=c51d5bdf7da3f733f5f7fec9903f7fae1772422843854&jid=c51d5bdf7da3f733f5f7fec9903f7fae1772422843555V&is_advertise=0&sjid=subsession_1772422952026&HlsSubType=1&HlsProfileId=1&nphaid=0&encrypt=927adcf2799651c99413dbb31f7971bb
+#EXTINF:-1 tvg-id="CCTV-8" tvg-name="CCTV-8" tvg-logo="" group-title="央视频道",CCTV-8
+http://116.115.6.103:1234/624878356?reptoken=R/mg&auth=
 #EXTINF:-1 tvg-id="CCTV-5+" tvg-name="CCTV-5+" tvg-logo="" group-title="央视频道",CCTV-5+
 http://116.115.6.103:1234/641886773?reptoken=R/mg&auth=
 #EXTINF:-1 tvg-id="CCTV-11" tvg-name="CCTV-11" tvg-logo="" group-title="央视频道",CCTV-11
