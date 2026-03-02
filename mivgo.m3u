@@ -71,8 +71,6 @@ http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/cctv14hd265/54/20200407/01.m
 http://116.115.6.103:1234/624878440?reptoken=R/mg&auth=
 #EXTINF:-1 tvg-id="CCTV-15" tvg-name="CCTV-15" tvg-logo="" group-title="央视频道",CCTV-15
 http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/20200324/cctv15hd/51/01.m3u8?msisdn=c51d5bdf7da3f733f5f7fec9903f7fae&mdspid=&spid=699004&netType=4&sid=5501083628&pid=2028597139&timestamp=20260302174748&Channel_ID=0116_2600031500-99000-200300140100004&ProgramID=673168223&ParentNodeID=-99&assertID=5501083628&client_ip=183.249.96.68&SecurityKey=20260302174748&promotionId=&mvid=5102910391&mcid=500020&playurlVersion=ZQ-A1-9.2.2-RELEASE&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&mtv_session=1cb0f419daee269b37d9c89dbe7bb9dd&sv=10004&ct=android&playUrlSsn=c51d5bdf7da3f733f5f7fec9903f7fae1772444868313&prlId=c51d5bdf7da3f733f5f7fec9903f7fae1772444868314&jid=c51d5bdf7da3f733f5f7fec9903f7fae1772444867995V&is_advertise=0&sjid=subsession_1772444871016&HlsSubType=1&HlsProfileId=1&nphaid=0&encrypt=bea0c1de7bfce181d39d398128fe553d
-#EXTINF:-1 tvg-id="CCTV-15" tvg-name="CCTV-15" tvg-logo="" group-title="央视频道",CCTV-15
-http://116.115.6.103:1234/673168223?reptoken=R/mg&auth=
 #EXTINF:-1 tvg-id="CCTV-16" tvg-name="CCTV-16" tvg-logo="" group-title="央视频道",CCTV-16
 http://69.30.246.194/live/cctv16.m3u8
 #EXTINF:-1 tvg-id="CCTV-16" tvg-name="CCTV-16" tvg-logo="" group-title="央视频道",CCTV-16
@@ -219,8 +217,6 @@ http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/cctv14hd265/54/20200407/01.m
 http://116.115.6.103:1234/624878440?reptoken=R/mg&auth=
 #EXTINF:-1 tvg-id="CCTV-15" tvg-name="CCTV-15" tvg-logo="" group-title="央视频道",CCTV-15
 http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/20200324/cctv15hd/51/01.m3u8?msisdn=c51d5bdf7da3f733f5f7fec9903f7fae&mdspid=&spid=699004&netType=4&sid=5501083628&pid=2028597139&timestamp=20260302174748&Channel_ID=0116_2600031500-99000-200300140100004&ProgramID=673168223&ParentNodeID=-99&assertID=5501083628&client_ip=183.249.96.68&SecurityKey=20260302174748&promotionId=&mvid=5102910391&mcid=500020&playurlVersion=ZQ-A1-9.2.2-RELEASE&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&mtv_session=1cb0f419daee269b37d9c89dbe7bb9dd&sv=10004&ct=android&playUrlSsn=c51d5bdf7da3f733f5f7fec9903f7fae1772444868313&prlId=c51d5bdf7da3f733f5f7fec9903f7fae1772444868314&jid=c51d5bdf7da3f733f5f7fec9903f7fae1772444867995V&is_advertise=0&sjid=subsession_1772444871016&HlsSubType=1&HlsProfileId=1&nphaid=0&encrypt=bea0c1de7bfce181d39d398128fe553d
-#EXTINF:-1 tvg-id="CCTV-15" tvg-name="CCTV-15" tvg-logo="" group-title="央视频道",CCTV-15
-http://116.115.6.103:1234/673168223?reptoken=R/mg&auth=
 #EXTINF:-1 tvg-id="CCTV-16" tvg-name="CCTV-16" tvg-logo="" group-title="央视频道",CCTV-16
 http://69.30.246.194/live/cctv16.m3u8
 #EXTINF:-1 tvg-id="CCTV-16" tvg-name="CCTV-16" tvg-logo="" group-title="央视频道",CCTV-16
@@ -361,7 +357,7 @@ http://l.cztvcloud.com/channels/lantian/SXshangyu2/720p.m3u8
 http://l.cztvcloud.com/channels/lantian/SXputuo1/720p.m3u8
 #EXTINF:-1 tvg-id="庆元电视台" tvg-name="庆元电视台" tvg-logo="" group-title="浙江地区",庆元电视台
 http://l.cztvcloud.com/channels/lantian/SXqingyuan1/720p.m3u8
-#EXTINF:-1 tvg-id="东阳影���生活" tvg-name="东阳影���生活" tvg-logo="" group-title="浙江地区",东阳影���生活
+#EXTINF:-1 tvg-id="东阳影视生活" tvg-name="东阳影视生活" tvg-logo="" group-title="浙江地区",东阳影视生活
 http://l.cztvcloud.com/channels/lantian/SXdongyang1/720p.m3u8
 #EXTINF:-1 tvg-id="兰溪新闻综合" tvg-name="兰溪新闻综合" tvg-logo="" group-title="浙江地区",兰溪新闻综合
 http://l.cztvcloud.com/channels/lantian/SXlanxi1/720p.m3u8
@@ -393,7 +389,7 @@ http://stream.hrbtv.net/yspd/sd/live.m3u8
 https://masterpull.hljtv.com/live/vQtnS3vX.m3u8
 #EXTINF:-1 tvg-id="伊春综合" tvg-name="伊春综合" tvg-logo="" group-title="黑龙江地区",伊春综合
 https://rmplive.hljtv.com/live/yichun.m3u8
-#EXTINF:-1 tvg-id="���河综合" tvg-name="���河综合" tvg-logo="" group-title="黑龙江地区",���河综合
+#EXTINF:-1 tvg-id="漠河综合" tvg-name="漠河综合" tvg-logo="" group-title="黑龙江地区",漠河综合
 https://masterpull.hljtv.com/live/rlVvbTZN.m3u8
 #EXTINF:-1 tvg-id="大庆新闻综合" tvg-name="大庆新闻综合" tvg-logo="" group-title="黑龙江地区",大庆新闻综合
 https://masterpull.hljtv.com/live/4WdrZLCq.m3u8
