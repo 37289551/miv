@@ -223,6 +223,8 @@ https://hlsbkmgsplive.miguvideo.com/migu/kailu/btws/51/20250804/01.m3u8?&HlsSubT
 http://183.11.239.36:808/hls/18/index.m3u8
 #EXTINF:-1 tvg-id="广东体育" tvg-name="广东体育" tvg-logo="" group-title="广东地区",广东体育
 http://120.238.85.131:9901/tsfile/live/1013_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-id="广东少儿" tvg-name="广东少儿" tvg-logo="" group-title="广东地区",广东少儿
+http://183.11.239.36:808/hls/175/index.m3u8
 #EXTINF:-1 tvg-id="广东影视" tvg-name="广东影视" tvg-logo="" group-title="广东地区",广东影视
 https://hlsbkmgsplive.miguvideo.com/wd_r1/2018/nfmedia/nfys/1000/01.m3u8?&HlsSubType=&encrypt=
 #EXTINF:-1 tvg-id="广东4K超高清" tvg-name="广东4K超高清" tvg-logo="" group-title="广东地区",广东4K超高清
@@ -309,6 +311,8 @@ https://stream.hrbtv.net/yspd/sd/live.m3u8
 http://stream.hrbtv.net/yspd/sd/live.m3u8
 #EXTINF:-1 tvg-id="伊春综合" tvg-name="伊春综合" tvg-logo="" group-title="黑龙江地区",伊春综合
 https://masterpull.hljtv.com/live/vQtnS3vX.m3u8
+#EXTINF:-1 tvg-id="伊春综合" tvg-name="伊春综合" tvg-logo="" group-title="黑龙江地区",伊春综合
+https://rmplive.hljtv.com/live/yichun.m3u8
 #EXTINF:-1 tvg-id="漠河综合" tvg-name="漠河综合" tvg-logo="" group-title="黑龙江地区",漠河综合
 https://masterpull.hljtv.com/live/rlVvbTZN.m3u8
 #EXTINF:-1 tvg-id="大庆新闻综合" tvg-name="大庆新闻综合" tvg-logo="" group-title="黑龙江地区",大庆新闻综合
