@@ -1,5 +1,5 @@
 #EXTM3U x-tvg-url="https://gh-proxy.com/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/playback.xml,https://hk.gh-proxy.org/raw.githubusercontent.com/develop202/migu_video/refs/heads/main/playback.xml,https://develop202.github.io/migu_video/playback.xml,https://raw.githubusercontents.com/develop202/migu_video/refs/heads/main/playback.xml" catchup="append" catchup-source="&playbackbegin=${(b)yyyyMMddHHmmss}&playbackend=${(e)yyyyMMddHHmmss}"
-#EXTINF:-1 tvg-id="更新日期: 2026-3-6 07:24:34" tvg-name="更新日期: 2026-3-6 07:24:34" tvg-logo="" group-title="央视频道",更新日期: 2026-3-6 07:24:34
+#EXTINF:-1 tvg-id="更新日期: 2026-3-6 08:10:16" tvg-name="更新日期: 2026-3-6 08:10:16" tvg-logo="" group-title="央视频道",更新日期: 2026-3-6 08:10:16
 http://pull-hls-f11.douyincdn.com/media/stream-407196211563987628.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1773356438&major_anchor_level=common&sign=f65c9ca865fea5ba81223b1cf3403df4&t_id=037-2026030607003760CB3A00A58CF6FC0A1D-5DDTed
 #EXTINF:-1 tvg-id="CCTV-1" tvg-name="CCTV-1" tvg-logo="" group-title="央视频道",CCTV-1
 http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/cctv1hd265/51/20191230/01.m3u8?msisdn=4f89b0f1d885527a227fd4a636419cfe&mdspid=&spid=699004&netType=4&sid=2201057821&pid=2028597139&timestamp=20260306070803&Channel_ID=0116_2600031500-99000-200300140100004&ProgramID=608807420&ParentNodeID=-99&assertID=2201057821&client_ip=223.247.104.175&SecurityKey=20260306070803&promotionId=&mvid=2201057821&mcid=500020&playurlVersion=WX-A1-9.2.2-RELEASE&userid=&jmhm=&videocodec=h265&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&mtv_session=647a387fe279df0d1191f07ae29df628&sv=10004&ct=android&playUrlSsn=4f89b0f1d885527a227fd4a636419cfe1772752080131&prlId=4f89b0f1d885527a227fd4a636419cfe1772752080169&jid=4f89b0f1d885527a227fd4a636419cfe1772752079691V&is_advertise=0&sjid=subsession_1772752080730&HlsSubType=1&HlsProfileId=1&nphaid=0&encrypt=71047dec45eb1c0339860301e3632aad
@@ -59,7 +59,7 @@ https://hlsbkmgsplive.miguvideo.com/migu/kailu/jswshd265/55/20200407/01.m3u8?&Hl
 http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/gdwshd265/54/20200407/01.m3u8?msisdn=4f89b0f1d885527a227fd4a636419cfe&mdspid=&spid=699054&netType=4&sid=2202428795&pid=2028597139&timestamp=20260306071820&Channel_ID=0116_2600031500-99000-200300140100004&ProgramID=608831231&ParentNodeID=-99&assertID=2202428795&client_ip=58.242.187.45&SecurityKey=20260306071820&promotionId=&mvid=2202428795&mcid=500020&playurlVersion=WX-A1-9.2.2-RELEASE&userid=&jmhm=&videocodec=h265&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&mtv_session=8e0a542fe92fb490caf09c235b81b818&sv=10004&ct=android&playUrlSsn=4f89b0f1d885527a227fd4a636419cfe1772752697167&prlId=4f89b0f1d885527a227fd4a636419cfe1772752697194&jid=4f89b0f1d885527a227fd4a636419cfe1772752696569V&is_advertise=0&sjid=subsession_1772752809072&HlsSubType=1&HlsProfileId=1&nphaid=0&encrypt=4fbe2cf517ce3c2a19ecaeb71742b8e9
 #EXTINF:-1 tvg-id="北京卫视" tvg-name="北京卫视" tvg-logo="" group-title="卫视频道",北京卫视
 http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/bjws/51/20251127/01.m3u8?msisdn=4f89b0f1d885527a227fd4a636419cfe&mdspid=&spid=600697&netType=4&sid=5910022306&pid=2028597139&timestamp=20260306071757&Channel_ID=0116_2600031500-99000-200300140100004&ProgramID=630287636&ParentNodeID=-99&assertID=5910022306&client_ip=58.242.118.193&SecurityKey=20260306071757&promotionId=&mvid=5101042960&mcid=500020&playurlVersion=WX-A1-9.2.2-RELEASE&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&mtv_session=ea15e4fc1967a6bdf9545d7ad2d6aab8&sv=10004&ct=android&playUrlSsn=4f89b0f1d885527a227fd4a636419cfe1772752674619&prlId=4f89b0f1d885527a227fd4a636419cfe1772752674627&jid=4f89b0f1d885527a227fd4a636419cfe1772752674376V&is_advertise=0&sjid=subsession_1772752675080&HlsSubType=1&HlsProfileId=1&nphaid=0&encrypt=c544e97959ef02525c73228802c8a9e1
-#EXTINF:-1 tvg-id="山东卫视" tvg-name="山东卫视" tvg-logo="" group-title="卫视频道",山东卫视
+#EXTINF:-1 tvg-id="山东卫��" tvg-name="山东卫��" tvg-logo="" group-title="卫视频道",山东卫��
 https://hlsbkmgsplive.miguvideo.com/wd_r4/yg/shandongwshd/3000/01.m3u8?&HlsSubType=&encrypt=
 #EXTINF:-1 tvg-id="山东卫视" tvg-name="山东卫视" tvg-logo="" group-title="卫视频道",山东卫视
 https://hlsbkmgsplive.miguvideo.com/wd-shandonghd-1200/01.m3u8?&HlsSubType=&encrypt=
@@ -73,7 +73,7 @@ https://hlsbkmgsplive.miguvideo.com/envivo_x/2018/SD/chongqing/1000/01.m3u8?&Hls
 https://hlsbkmgsplive.miguvideo.com/envivo_v/2018/SD/jilin/1000/01.m3u8?&HlsSubType=&encrypt=
 #EXTINF:-1 tvg-id="兵团卫视" tvg-name="兵团卫视" tvg-logo="" group-title="卫视频道",兵团卫视
 https://hlsbkmgsplive.miguvideo.com/migu/kailu/btws/51/20250804/01.m3u8?&HlsSubType=&encrypt=
-#EXTINF:-1 tvg-id="更新日期: 2026-3-6 07:24:34" tvg-name="更新日期: 2026-3-6 07:24:34" tvg-logo="" group-title="央视频道",更新日期: 2026-3-6 07:24:34
+#EXTINF:-1 tvg-id="更新日期: 2026-3-6 08:10:16" tvg-name="更新日期: 2026-3-6 08:10:16" tvg-logo="" group-title="央视频道",更新日期: 2026-3-6 08:10:16
 http://pull-hls-f11.douyincdn.com/media/stream-407196211563987628.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1773356438&major_anchor_level=common&sign=f65c9ca865fea5ba81223b1cf3403df4&t_id=037-2026030607003760CB3A00A58CF6FC0A1D-5DDTed
 #EXTINF:-1 tvg-id="CCTV-1" tvg-name="CCTV-1" tvg-logo="" group-title="央视频道",CCTV-1
 http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/cctv1hd265/51/20191230/01.m3u8?msisdn=4f89b0f1d885527a227fd4a636419cfe&mdspid=&spid=699004&netType=4&sid=2201057821&pid=2028597139&timestamp=20260306070803&Channel_ID=0116_2600031500-99000-200300140100004&ProgramID=608807420&ParentNodeID=-99&assertID=2201057821&client_ip=223.247.104.175&SecurityKey=20260306070803&promotionId=&mvid=2201057821&mcid=500020&playurlVersion=WX-A1-9.2.2-RELEASE&userid=&jmhm=&videocodec=h265&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&mtv_session=647a387fe279df0d1191f07ae29df628&sv=10004&ct=android&playUrlSsn=4f89b0f1d885527a227fd4a636419cfe1772752080131&prlId=4f89b0f1d885527a227fd4a636419cfe1772752080169&jid=4f89b0f1d885527a227fd4a636419cfe1772752079691V&is_advertise=0&sjid=subsession_1772752080730&HlsSubType=1&HlsProfileId=1&nphaid=0&encrypt=71047dec45eb1c0339860301e3632aad
@@ -133,7 +133,7 @@ https://hlsbkmgsplive.miguvideo.com/migu/kailu/jswshd265/55/20200407/01.m3u8?&Hl
 http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/gdwshd265/54/20200407/01.m3u8?msisdn=4f89b0f1d885527a227fd4a636419cfe&mdspid=&spid=699054&netType=4&sid=2202428795&pid=2028597139&timestamp=20260306071820&Channel_ID=0116_2600031500-99000-200300140100004&ProgramID=608831231&ParentNodeID=-99&assertID=2202428795&client_ip=58.242.187.45&SecurityKey=20260306071820&promotionId=&mvid=2202428795&mcid=500020&playurlVersion=WX-A1-9.2.2-RELEASE&userid=&jmhm=&videocodec=h265&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&mtv_session=8e0a542fe92fb490caf09c235b81b818&sv=10004&ct=android&playUrlSsn=4f89b0f1d885527a227fd4a636419cfe1772752697167&prlId=4f89b0f1d885527a227fd4a636419cfe1772752697194&jid=4f89b0f1d885527a227fd4a636419cfe1772752696569V&is_advertise=0&sjid=subsession_1772752809072&HlsSubType=1&HlsProfileId=1&nphaid=0&encrypt=4fbe2cf517ce3c2a19ecaeb71742b8e9
 #EXTINF:-1 tvg-id="北京卫视" tvg-name="北京卫视" tvg-logo="" group-title="卫视频道",北京卫视
 http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/bjws/51/20251127/01.m3u8?msisdn=4f89b0f1d885527a227fd4a636419cfe&mdspid=&spid=600697&netType=4&sid=5910022306&pid=2028597139&timestamp=20260306071757&Channel_ID=0116_2600031500-99000-200300140100004&ProgramID=630287636&ParentNodeID=-99&assertID=5910022306&client_ip=58.242.118.193&SecurityKey=20260306071757&promotionId=&mvid=5101042960&mcid=500020&playurlVersion=WX-A1-9.2.2-RELEASE&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&mtv_session=ea15e4fc1967a6bdf9545d7ad2d6aab8&sv=10004&ct=android&playUrlSsn=4f89b0f1d885527a227fd4a636419cfe1772752674619&prlId=4f89b0f1d885527a227fd4a636419cfe1772752674627&jid=4f89b0f1d885527a227fd4a636419cfe1772752674376V&is_advertise=0&sjid=subsession_1772752675080&HlsSubType=1&HlsProfileId=1&nphaid=0&encrypt=c544e97959ef02525c73228802c8a9e1
-#EXTINF:-1 tvg-id="山东卫视" tvg-name="山东卫视" tvg-logo="" group-title="卫视频道",山东卫视
+#EXTINF:-1 tvg-id="山东卫��" tvg-name="山东卫��" tvg-logo="" group-title="卫视频道",山东卫��
 https://hlsbkmgsplive.miguvideo.com/wd_r4/yg/shandongwshd/3000/01.m3u8?&HlsSubType=&encrypt=
 #EXTINF:-1 tvg-id="山东卫视" tvg-name="山东卫视" tvg-logo="" group-title="卫视频道",山东卫视
 https://hlsbkmgsplive.miguvideo.com/wd-shandonghd-1200/01.m3u8?&HlsSubType=&encrypt=
@@ -225,8 +225,6 @@ http://l.cztvcloud.com/channels/lantian/SXjinyun1/720p.m3u8
 http://l.cztvcloud.com/channels/lantian/SXlongquan1/720p.m3u8
 #EXTINF:-1 tvg-id="南京文旅纪录" tvg-name="南京文旅纪录" tvg-logo="" group-title="江苏地区",南京文旅纪录
 http://nklive.nbs.cn/hls/9b2005c4-046c-422f-ba45-e6adc4f4de07/index.m3u8
-#EXTINF:-1 tvg-id="南京少儿" tvg-name="南京少儿" tvg-logo="" group-title="江苏地区",南京少儿
-http://nklive.nbs.cn/hls/e0981f3f-1a20-4a59-b8d1-17feb83a4610/index.m3u8
 #EXTINF:-1 tvg-id="哈尔滨新闻综合" tvg-name="哈尔滨新闻综合" tvg-logo="" group-title="黑龙江地区",哈尔滨新闻综合
 https://rmplive.hljtv.com/live/haerbin.m3u8
 #EXTINF:-1 tvg-id="哈尔滨新闻综合" tvg-name="哈尔滨新闻综合" tvg-logo="" group-title="黑龙江地区",哈尔滨新闻综合
@@ -263,7 +261,7 @@ https://masterpull.hljtv.com/live/rApKWXbX.m3u8
 https://rmplive.hljtv.com/live/hegang.m3u8
 #EXTINF:-1 tvg-id="富锦综合" tvg-name="富锦综合" tvg-logo="" group-title="黑龙江地区",富锦综合
 https://masterpull.hljtv.com/live/wOBN3GqO.m3u8
-#EXTINF:-1 tvg-id="尚志电视��" tvg-name="尚志电视��" tvg-logo="" group-title="黑龙江地区",尚志电视��
+#EXTINF:-1 tvg-id="尚志电视台" tvg-name="尚志电视台" tvg-logo="" group-title="黑龙江地区",尚志电视台
 https://masterpull.hljtv.com/live/EQnKvoc9.m3u8
 #EXTINF:-1 tvg-id="佳木斯新闻综合" tvg-name="佳木斯新闻综合" tvg-logo="" group-title="黑龙江地区",佳木斯新闻综合
 https://masterpull.hljtv.com/live/l9wQtsVs.m3u8
