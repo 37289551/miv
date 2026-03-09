@@ -313,8 +313,6 @@ http://l.cztvcloud.com/channels/lantian/SXshangyu1/720p.m3u8
 http://l.cztvcloud.com/channels/lantian/SXshangyu2/720p.m3u8
 #EXTINF:-1 tvg-id="普陀电视台" tvg-name="普陀电视台" tvg-logo="" group-title="浙江地区",普陀电视台
 http://l.cztvcloud.com/channels/lantian/SXputuo1/720p.m3u8
-#EXTINF:-1 tvg-id="庆元电视台" tvg-name="庆元电视台" tvg-logo="" group-title="浙江地区",庆元电视台
-http://l.cztvcloud.com/channels/lantian/SXqingyuan1/720p.m3u8
 #EXTINF:-1 tvg-id="东阳影视生活" tvg-name="东阳影视生活" tvg-logo="" group-title="浙江地区",东阳影视生活
 http://l.cztvcloud.com/channels/lantian/SXdongyang1/720p.m3u8
 #EXTINF:-1 tvg-id="兰溪新闻综合" tvg-name="兰溪新闻综合" tvg-logo="" group-title="浙江地区",兰溪新闻综合
@@ -361,7 +359,7 @@ https://masterpull.hljtv.com/live/iyoENgSP.m3u8
 https://masterpull.hljtv.com/live/rApKWXbX.m3u8
 #EXTINF:-1 tvg-id="鹤岗综合" tvg-name="鹤岗综合" tvg-logo="" group-title="黑龙江地区",鹤岗综合
 https://rmplive.hljtv.com/live/hegang.m3u8
-#EXTINF:-1 tvg-id="��锦综合" tvg-name="��锦综合" tvg-logo="" group-title="黑龙江地区",��锦综合
+#EXTINF:-1 tvg-id="富���综合" tvg-name="富���综合" tvg-logo="" group-title="黑龙江地区",富���综合
 https://masterpull.hljtv.com/live/wOBN3GqO.m3u8
 #EXTINF:-1 tvg-id="尚志电视台" tvg-name="尚志电视台" tvg-logo="" group-title="黑龙江地区",尚志电视台
 https://masterpull.hljtv.com/live/EQnKvoc9.m3u8
