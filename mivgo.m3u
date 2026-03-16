@@ -27,8 +27,6 @@ http://ali-xwl.cztv.com/live/channel01720Plxw.m3u8
 http://ali-xwl.cztv.com/live/channel4k2160p.m3u8
 #EXTINF:-1 tvg-id="浙江卫视" tvg-name="浙江卫视" tvg-logo="" group-title="卫视频道",浙江卫视
 http://play-qukan.cztv.com/live/1758879019692345.m3u8
-#EXTINF:-1 tvg-id="浙江卫视" tvg-name="浙江卫视" tvg-logo="" group-title="卫视频道",浙江卫视
-https://play-qukan.cztv.com/live/1758879019692345.m3u8
 #EXTINF:-1 tvg-id="江苏卫视" tvg-name="江苏卫视" tvg-logo="" group-title="卫视频道",江苏卫视
 http://69.30.246.194/live/jsws.m3u8
 #EXTINF:-1 tvg-id="江苏卫视" tvg-name="江苏卫视" tvg-logo="" group-title="卫视频道",江苏卫视
@@ -75,8 +73,6 @@ http://ali-xwl.cztv.com/live/channel01720Plxw.m3u8
 http://ali-xwl.cztv.com/live/channel4k2160p.m3u8
 #EXTINF:-1 tvg-id="浙江卫视" tvg-name="浙江卫视" tvg-logo="" group-title="卫视频道",浙江卫视
 http://play-qukan.cztv.com/live/1758879019692345.m3u8
-#EXTINF:-1 tvg-id="浙江卫视" tvg-name="浙江卫视" tvg-logo="" group-title="卫视频道",浙江卫视
-https://play-qukan.cztv.com/live/1758879019692345.m3u8
 #EXTINF:-1 tvg-id="江苏卫视" tvg-name="江苏卫视" tvg-logo="" group-title="卫视频道",江苏卫视
 http://69.30.246.194/live/jsws.m3u8
 #EXTINF:-1 tvg-id="江苏卫视" tvg-name="江苏卫视" tvg-logo="" group-title="卫视频道",江苏卫视
@@ -163,7 +159,7 @@ http://l.cztvcloud.com/channels/lantian/SXlongquan1/720p.m3u8
 https://rmplive.hljtv.com/live/haerbin.m3u8
 #EXTINF:-1 tvg-id="哈尔滨新闻综合" tvg-name="哈尔滨新闻综合" tvg-logo="" group-title="黑龙江地区",哈尔滨新闻综合
 https://stream.hrbtv.net/xwzh/sd/live.m3u8
-#EXTINF:-1 tvg-id="��尔滨新闻综合" tvg-name="��尔滨新闻综合" tvg-logo="" group-title="黑龙江地区",��尔滨新闻综合
+#EXTINF:-1 tvg-id="���尔滨新闻综合" tvg-name="���尔滨新闻综合" tvg-logo="" group-title="黑龙江地区",���尔滨新闻综合
 http://stream.hrbtv.net/xwzh/sd/live.m3u8
 #EXTINF:-1 tvg-id="哈尔滨生活" tvg-name="哈尔滨生活" tvg-logo="" group-title="黑龙江地区",哈尔滨生活
 https://stream.hrbtv.net/shpd/sd/live.m3u8
