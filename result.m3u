@@ -197,10 +197,10 @@ http://69.30.246.194/live/cctv16.m3u8
 http://183.11.239.36:808/hls/169/index.m3u8
 #EXTINF:-1 tvg-name="CCTV16" tvg-logo="CCTV16.png" group-title="央视频道",CCTV-16
 http://gmxw.7766.org:808/hls/169/index.m3u8
-#EXTINF:-1 tvg-name="CCTV17" tvg-logo="CCTV17.png" group-title="央视频道",CCTV-17
-http://123.130.84.106:8154/tsfile/live/0019_1.m3u8
-#EXTINF:-1 tvg-name="CCTV17" tvg-logo="CCTV17.png" group-title="央视频道",CCTV-17
-http://183.11.239.36:808/hls/35/index.m3u8
+#EXTINF:-1 tvg-id="CCTV-17" tvg-name="CCTV-17" tvg-logo="" group-title="央视频道",CCTV-17
+http://pull-hls-f11.douyincdn.com/media/stream-407259705406653100.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1774310808&major_anchor_level=common&sign=2e25bcc1aff95c44dcf024044915ff65&t_id=037-202603170806476F1741BC4FA44F4F830F-Ry5z4p
+#EXTINF:-1 tvg-id="CCTV-17" tvg-name="CCTV-17" tvg-logo="" group-title="央视频道",CCTV-17
+http://pull-hls-f11.douyincdn.com/media/stream-407259705406653100.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1774310808&major_anchor_level=common&sign=2e25bcc1aff95c44dcf024044915ff65&t_id=037-202603170806476F1741BC4FA44F4F830F-Ry5z4p
 #EXTINF:-1 tvg-name="CCTV17" tvg-logo="CCTV17.png" group-title="央视频道",CCTV-17
 http://58.57.40.22:9901/tsfile/live/0019_1.m3u8
 #EXTINF:-1 tvg-name="CCTV17" tvg-logo="CCTV17.png" group-title="央视频道",CCTV-17
