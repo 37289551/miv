@@ -1,14 +1,18 @@
 #EXTM3U x-tvg-url="https://gh-proxy.com/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/playback.xml,https://hk.gh-proxy.org/raw.githubusercontent.com/develop202/migu_video/refs/heads/main/playback.xml,https://develop202.github.io/migu_video/playback.xml,https://raw.githubusercontents.com/develop202/migu_video/refs/heads/main/playback.xml" catchup="append" catchup-source="&playbackbegin=${(b)yyyyMMddHHmmss}&playbackend=${(e)yyyyMMddHHmmss}"
-#EXTINF:-1 tvg-id="更新日期: 2026-3-19 18:35:14" tvg-name="更新日期: 2026-3-19 18:35:14" tvg-logo="" group-title="央视频道",更新日期: 2026-3-19 18:35:14
+#EXTINF:-1 tvg-id="更新日期: 2026-3-20 06:30:09" tvg-name="更新日期: 2026-3-20 06:30:09" tvg-logo="" group-title="央视频道",更新日期: 2026-3-20 06:30:09
+http://pull-hls-f11.douyincdn.com/media/stream-407276916281705132.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1774564168&major_anchor_level=common&sign=10af48a9686fb5f24bbd1f51ccee0e95&t_id=037-202603200629278C5828870586B7E744B6-wbhexN
+#EXTINF:-1 tvg-id="CCTV-1" tvg-name="CCTV-1" tvg-logo="" group-title="央视频道",CCTV-1
 http://play.kankanlive.com/live/1698234869325962.m3u8
 #EXTINF:-1 tvg-id="CCTV-3" tvg-name="CCTV-3" tvg-logo="" group-title="央视频道",CCTV-3
 http://38.75.136.137:98/gslb/dsdqpub/cctv3hd.m3u8?auth=testpub
+#EXTINF:-1 tvg-id="CCTV-13" tvg-name="CCTV-13" tvg-logo="" group-title="央视频道",CCTV-13
+http://pull-hls-f11.douyincdn.com/media/stream-695505348295131820.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1774522531&major_anchor_level=common&sign=a97da9d1b4c332580a0e83b77cdb2206&t_id=037-2026031918553112BD480F88E3000CDAC3-gkb2g7
+#EXTINF:-1 tvg-id="CCTV-13" tvg-name="CCTV-13" tvg-logo="" group-title="央视频道",CCTV-13
+http://pull-hls-f1.douyincdn.com/media/stream-695440843385864876/playlist.m3u8?arch_hrchy=w1&exp_hrchy=w1&keeptime=00093a80&major_anchor_level=common&t_id=037-20260319180016A80564ED5545468EA742-GFdhqq&wsSecret=34a32822799c54e7dcdef972de5a9201&wsTime=69bbc931
 #EXTINF:-1 tvg-id="CCTV-16" tvg-name="CCTV-16" tvg-logo="" group-title="央视频道",CCTV-16
 http://69.30.246.194/live/cctv16.m3u8
 #EXTINF:-1 tvg-id="CCTV-16" tvg-name="CCTV-16" tvg-logo="" group-title="央视频道",CCTV-16
 http://38.75.136.137:98/gslb/dsdqpub/cctv16hd.m3u8?auth=testpub
-#EXTINF:-1 tvg-id="CCTV-13" tvg-name="CCTV-13" tvg-logo="" group-title="央视频道",CCTV-13
-http://pull-hls-f11.douyincdn.com/media/stream-695440843385864876.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1774323413&major_anchor_level=common&sign=bfb8ff74617fcdff19b7f069345bddbf&t_id=037-202603171136527F07B27D8B65BC930621-2vH0sa
 #EXTINF:-1 tvg-id="湖南卫视" tvg-name="湖南卫视" tvg-logo="" group-title="卫视频道",湖南卫视
 http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/Y2RuZXhfaWQ9YWxfaGxzX2xkdnQmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8
 #EXTINF:-1 tvg-id="湖南卫视" tvg-name="湖南卫视" tvg-logo="" group-title="卫视频道",湖南卫视
@@ -29,7 +33,7 @@ http://ali-xwl.cztv.com/live/channel4k2160p.m3u8
 http://69.30.246.194/live/jsws.m3u8
 #EXTINF:-1 tvg-id="江苏卫视" tvg-name="江苏卫视" tvg-logo="" group-title="卫视频道",江苏卫视
 https://hlsbkmgsplive.miguvideo.com/migu/kailu/jswshd265/55/20200407/01.m3u8?&HlsSubType=&encrypt=
-#EXTINF:-1 tvg-id="山东卫视" tvg-name="山东卫视" tvg-logo="" group-title="卫视频道",山东卫视
+#EXTINF:-1 tvg-id="���东卫视" tvg-name="���东卫视" tvg-logo="" group-title="卫视频道",���东卫视
 https://hlsbkmgsplive.miguvideo.com/wd_r4/yg/shandongwshd/3000/01.m3u8?&HlsSubType=&encrypt=
 #EXTINF:-1 tvg-id="山东卫视" tvg-name="山东卫视" tvg-logo="" group-title="卫视频道",山东卫视
 https://hlsbkmgsplive.miguvideo.com/wd-shandonghd-1200/01.m3u8?&HlsSubType=&encrypt=
@@ -41,18 +45,22 @@ https://hlsbkmgsplive.miguvideo.com/migu/kailu/dongnanws/51/20230724/01.m3u8?&Hl
 https://hlsbkmgsplive.miguvideo.com/envivo_x/2018/SD/chongqing/1000/01.m3u8?&HlsSubType=&encrypt=
 #EXTINF:-1 tvg-id="吉林卫视" tvg-name="吉林卫视" tvg-logo="" group-title="卫视频道",吉林卫视
 https://hlsbkmgsplive.miguvideo.com/envivo_v/2018/SD/jilin/1000/01.m3u8?&HlsSubType=&encrypt=
-#EXTINF:-1 tvg-id="���团卫视" tvg-name="���团卫视" tvg-logo="" group-title="卫视频道",���团卫视
+#EXTINF:-1 tvg-id="兵团卫视" tvg-name="兵团卫视" tvg-logo="" group-title="卫视频道",兵团卫视
 https://hlsbkmgsplive.miguvideo.com/migu/kailu/btws/51/20250804/01.m3u8?&HlsSubType=&encrypt=
-#EXTINF:-1 tvg-id="更新日期: 2026-3-19 18:35:14" tvg-name="更新日期: 2026-3-19 18:35:14" tvg-logo="" group-title="央视频道",更新日期: 2026-3-19 18:35:14
+#EXTINF:-1 tvg-id="更新日期: 2026-3-20 06:30:09" tvg-name="更新日期: 2026-3-20 06:30:09" tvg-logo="" group-title="央视频道",更新日期: 2026-3-20 06:30:09
+http://pull-hls-f11.douyincdn.com/media/stream-407276916281705132.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1774564168&major_anchor_level=common&sign=10af48a9686fb5f24bbd1f51ccee0e95&t_id=037-202603200629278C5828870586B7E744B6-wbhexN
+#EXTINF:-1 tvg-id="CCTV-1" tvg-name="CCTV-1" tvg-logo="" group-title="央视频道",CCTV-1
 http://play.kankanlive.com/live/1698234869325962.m3u8
 #EXTINF:-1 tvg-id="CCTV-3" tvg-name="CCTV-3" tvg-logo="" group-title="央视频道",CCTV-3
 http://38.75.136.137:98/gslb/dsdqpub/cctv3hd.m3u8?auth=testpub
+#EXTINF:-1 tvg-id="CCTV-13" tvg-name="CCTV-13" tvg-logo="" group-title="央视频道",CCTV-13
+http://pull-hls-f11.douyincdn.com/media/stream-695505348295131820.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1774522531&major_anchor_level=common&sign=a97da9d1b4c332580a0e83b77cdb2206&t_id=037-2026031918553112BD480F88E3000CDAC3-gkb2g7
+#EXTINF:-1 tvg-id="CCTV-13" tvg-name="CCTV-13" tvg-logo="" group-title="央视频道",CCTV-13
+http://pull-hls-f1.douyincdn.com/media/stream-695440843385864876/playlist.m3u8?arch_hrchy=w1&exp_hrchy=w1&keeptime=00093a80&major_anchor_level=common&t_id=037-20260319180016A80564ED5545468EA742-GFdhqq&wsSecret=34a32822799c54e7dcdef972de5a9201&wsTime=69bbc931
 #EXTINF:-1 tvg-id="CCTV-16" tvg-name="CCTV-16" tvg-logo="" group-title="央视频道",CCTV-16
 http://69.30.246.194/live/cctv16.m3u8
 #EXTINF:-1 tvg-id="CCTV-16" tvg-name="CCTV-16" tvg-logo="" group-title="央视频道",CCTV-16
 http://38.75.136.137:98/gslb/dsdqpub/cctv16hd.m3u8?auth=testpub
-#EXTINF:-1 tvg-id="CCTV-13" tvg-name="CCTV-13" tvg-logo="" group-title="央视频道",CCTV-13
-http://pull-hls-f11.douyincdn.com/media/stream-695440843385864876.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1774323413&major_anchor_level=common&sign=bfb8ff74617fcdff19b7f069345bddbf&t_id=037-202603171136527F07B27D8B65BC930621-2vH0sa
 #EXTINF:-1 tvg-id="湖南卫视" tvg-name="湖南卫视" tvg-logo="" group-title="卫视频道",湖南卫视
 http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/Y2RuZXhfaWQ9YWxfaGxzX2xkdnQmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8
 #EXTINF:-1 tvg-id="湖南卫视" tvg-name="湖南卫视" tvg-logo="" group-title="卫视频道",湖南卫视
@@ -73,7 +81,7 @@ http://ali-xwl.cztv.com/live/channel4k2160p.m3u8
 http://69.30.246.194/live/jsws.m3u8
 #EXTINF:-1 tvg-id="江苏卫视" tvg-name="江苏卫视" tvg-logo="" group-title="卫视频道",江苏卫视
 https://hlsbkmgsplive.miguvideo.com/migu/kailu/jswshd265/55/20200407/01.m3u8?&HlsSubType=&encrypt=
-#EXTINF:-1 tvg-id="山东卫视" tvg-name="山东卫视" tvg-logo="" group-title="卫视频道",山东卫视
+#EXTINF:-1 tvg-id="���东卫视" tvg-name="���东卫视" tvg-logo="" group-title="卫视频道",���东卫视
 https://hlsbkmgsplive.miguvideo.com/wd_r4/yg/shandongwshd/3000/01.m3u8?&HlsSubType=&encrypt=
 #EXTINF:-1 tvg-id="山东卫视" tvg-name="山东卫视" tvg-logo="" group-title="卫视频道",山东卫视
 https://hlsbkmgsplive.miguvideo.com/wd-shandonghd-1200/01.m3u8?&HlsSubType=&encrypt=
@@ -85,7 +93,7 @@ https://hlsbkmgsplive.miguvideo.com/migu/kailu/dongnanws/51/20230724/01.m3u8?&Hl
 https://hlsbkmgsplive.miguvideo.com/envivo_x/2018/SD/chongqing/1000/01.m3u8?&HlsSubType=&encrypt=
 #EXTINF:-1 tvg-id="吉林卫视" tvg-name="吉林卫视" tvg-logo="" group-title="卫视频道",吉林卫视
 https://hlsbkmgsplive.miguvideo.com/envivo_v/2018/SD/jilin/1000/01.m3u8?&HlsSubType=&encrypt=
-#EXTINF:-1 tvg-id="���团卫视" tvg-name="���团卫视" tvg-logo="" group-title="卫视频道",���团卫视
+#EXTINF:-1 tvg-id="兵团卫视" tvg-name="兵团卫视" tvg-logo="" group-title="卫视频道",兵团卫视
 https://hlsbkmgsplive.miguvideo.com/migu/kailu/btws/51/20250804/01.m3u8?&HlsSubType=&encrypt=
 #EXTINF:-1 tvg-id="广东影视" tvg-name="广东影视" tvg-logo="" group-title="广东地区",广东影视
 https://hlsbkmgsplive.miguvideo.com/wd_r1/2018/nfmedia/nfys/1000/01.m3u8?&HlsSubType=&encrypt=
@@ -111,7 +119,7 @@ http://ali-xwl.cztv.com/live/channel071080Plxw.m3u8
 http://ali-xwl.cztv.com/live/channel07720Plxw.m3u8
 #EXTINF:-1 tvg-id="浙江教科影视" tvg-name="浙江教科影视" tvg-logo="" group-title="浙江地区",浙江教科影视
 http://ali-xwl.cztv.com/live/channel041080Plxw.m3u8
-#EXTINF:-1 tvg-id="浙江教科影视" tvg-name="浙江教科影视" tvg-logo="" group-title="浙江地区",浙江教科影视
+#EXTINF:-1 tvg-id="浙��教科影视" tvg-name="浙��教科影视" tvg-logo="" group-title="浙江地区",浙��教科影视
 http://ali-xwl.cztv.com/live/channel04720Plxw.m3u8
 #EXTINF:-1 tvg-id="浙江国际" tvg-name="浙江国际" tvg-logo="" group-title="浙江地区",浙江国际
 http://ali-xwl.cztv.com/live/channel101080Plxw.m3u8
@@ -127,7 +135,7 @@ http://l.cztvcloud.com/channels/lantian/SXxinchang1/720p.m3u8
 http://l.cztvcloud.com/channels/lantian/SXpinghu1/720p.m3u8
 #EXTINF:-1 tvg-id="平湖民生休闲" tvg-name="平湖民生休闲" tvg-logo="" group-title="浙江地区",平湖民生休闲
 http://l.cztvcloud.com/channels/lantian/SXpinghu2/720p.m3u8
-#EXTINF:-1 tvg-id="青田电视台" tvg-name="青田电视台" tvg-logo="" group-title="浙江地区",青田电视台
+#EXTINF:-1 tvg-id="���田电视台" tvg-name="���田电视台" tvg-logo="" group-title="浙江地区",���田电视台
 http://l.cztvcloud.com/channels/lantian/SXqingtian1/720p.m3u8
 #EXTINF:-1 tvg-id="余姚新闻综合" tvg-name="余姚新闻综合" tvg-logo="" group-title="浙江地区",余姚新闻综合
 http://l.cztvcloud.com/channels/lantian/SXyuyao1/720p.m3u8
@@ -161,7 +169,7 @@ http://stream.hrbtv.net/xwzh/sd/live.m3u8
 https://stream.hrbtv.net/shpd/sd/live.m3u8
 #EXTINF:-1 tvg-id="哈尔滨生活" tvg-name="哈尔滨生活" tvg-logo="" group-title="黑龙江地区",哈尔滨生活
 http://stream.hrbtv.net/shpd/sd/live.m3u8
-#EXTINF:-1 tvg-id="哈尔滨资讯" tvg-name="哈尔滨资讯" tvg-logo="" group-title="黑龙江地区",哈尔滨资讯
+#EXTINF:-1 tvg-id="哈���滨资讯" tvg-name="哈���滨资讯" tvg-logo="" group-title="黑龙江地区",哈���滨资讯
 https://stream.hrbtv.net/zxpd/sd/live.m3u8
 #EXTINF:-1 tvg-id="哈尔滨娱乐" tvg-name="哈尔滨娱乐" tvg-logo="" group-title="黑龙江地区",哈尔滨娱乐
 http://stream.hrbtv.net/ylpd/sd/live.m3u8
