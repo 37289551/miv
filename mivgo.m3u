@@ -169,7 +169,7 @@ https://stream.hrbtv.net/shpd/sd/live.m3u8
 http://stream.hrbtv.net/shpd/sd/live.m3u8
 #EXTINF:-1 tvg-id="哈尔滨资讯" tvg-name="哈尔滨资讯" tvg-logo="" group-title="黑龙江地区",哈尔滨资讯
 https://stream.hrbtv.net/zxpd/sd/live.m3u8
-#EXTINF:-1 tvg-id="哈���滨娱乐" tvg-name="哈���滨娱乐" tvg-logo="" group-title="黑龙江地区",哈���滨娱乐
+#EXTINF:-1 tvg-id="哈尔滨娱乐" tvg-name="哈尔滨娱乐" tvg-logo="" group-title="黑龙江地区",哈尔滨娱乐
 http://stream.hrbtv.net/ylpd/sd/live.m3u8
 #EXTINF:-1 tvg-id="哈尔滨影视" tvg-name="哈尔滨影视" tvg-logo="" group-title="黑龙江地区",哈尔滨影视
 https://stream.hrbtv.net/yspd/sd/live.m3u8
@@ -217,5 +217,5 @@ https://masterpull.hljtv.com/live/FsGxlDZQ.m3u8
 https://masterpull.hljtv.com/live/VFNlgeFO.m3u8
 #EXTINF:-1 tvg-id="大兴安岭新闻综合" tvg-name="大兴安岭新闻综合" tvg-logo="" group-title="黑龙江地区",大兴安岭新闻综合
 https://masterpull.hljtv.com/live/H2kVyS15.m3u8
-#EXTINF:-1 tvg-id="大兴安岭���闻综合" tvg-name="大兴安岭���闻综合" tvg-logo="" group-title="黑龙江地区",大兴安岭���闻综合
+#EXTINF:-1 tvg-id="大兴安岭新闻综合" tvg-name="大兴安岭新闻综合" tvg-logo="" group-title="黑龙江地区",大兴安岭新闻综合
 https://rmplive.hljtv.com/live/daxinganling.m3u8
