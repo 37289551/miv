@@ -159,6 +159,7 @@ CCTV17农业农村,http://pull-hs-f5.flive.douyincdn.com/media/stream-4074565841
 新乡县综合,http://live.dxhmt.cn:9081/tv/10721-1.m3u8
 舞钢综合,http://tvpull.dxhmt.cn:9081/tv/10481-1.m3u8
 舞钢综合,http://live.dxhmt.cn:9081/tv/10481-1.m3u8
+鹤壁新闻,http://pili-live-hls.hebitv.com/hebi/hbtv.m3u8
 灵宝新闻综合,http://tvpull.dxhmt.cn:9081/tv/11282-1.m3u8
 灵宝新闻综合,http://live.dxhmt.cn:9081/tv/11282-1.m3u8
 淮滨综合,http://tvpull.dxhmt.cn:9081/tv/11527-1.m3u8
