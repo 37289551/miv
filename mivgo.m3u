@@ -76,8 +76,6 @@ http://pull-hls-f11.douyincdn.com/media/stream-119261188904452780.m3u8?arch_hrch
 #EXTINF:-1 tvg-id="CCTV-17" tvg-name="CCTV-17" tvg-logo="" group-title="央视频道",CCTV-17
 http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/20200324/cctv17hd/51/index.m3u8?msisdn=f863b466d46e2ff46401579155d4a125&mdspid=&spid=699004&netType=4&sid=5501083631&pid=2028597139&timestamp=20260426111133&Channel_ID=0116_2600037000-99000-200300220102245&ProgramID=673168256&ParentNodeID=-99&assertID=5501083631&client_ip=113.6.228.92&SecurityKey=20260426111133&promotionId=&mvid=5102910396&mcid=500020&playurlVersion=WX-A1-9.3.2-RELEASE&userid=1834153345&jmhm=f863b466d46e2ff46401579155d4a125&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=5a07da3fdaa858579ee0ab0711c07a85
 #EXTINF:-1 tvg-id="湖南卫视" tvg-name="湖南卫视" tvg-logo="" group-title="卫视频道",湖南卫视
-http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/Y2RuZXhfaWQ9YWxfaGxzX2xkdnQmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8
-#EXTINF:-1 tvg-id="湖南卫视" tvg-name="湖南卫视" tvg-logo="" group-title="卫视频道",湖南卫视
 http://69.30.246.194/live/hnws.m3u8
 #EXTINF:-1 tvg-id="湖南卫视" tvg-name="湖南卫视" tvg-logo="" group-title="卫视频道",湖南卫视
 https://hlsbkmgsplive.miguvideo.com/wd-hunanhd-2500/01.m3u8?&HlsSubType=&encrypt=
@@ -209,8 +207,6 @@ http://173.208.223.226:82/live/cctv16md.m3u8?jsbt=1772069348&jsbk=71ccb68cbde431
 http://pull-hls-f11.douyincdn.com/media/stream-119261188904452780.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1777770519&major_anchor_level=common&neq=1&sign=e434f2b2df272f04dbad6c1b41c5cea7&t_id=037-2026042609083945A3AF38DBC852D1D554-hL6HFR
 #EXTINF:-1 tvg-id="CCTV-17" tvg-name="CCTV-17" tvg-logo="" group-title="央视频道",CCTV-17
 http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/20200324/cctv17hd/51/index.m3u8?msisdn=f863b466d46e2ff46401579155d4a125&mdspid=&spid=699004&netType=4&sid=5501083631&pid=2028597139&timestamp=20260426111133&Channel_ID=0116_2600037000-99000-200300220102245&ProgramID=673168256&ParentNodeID=-99&assertID=5501083631&client_ip=113.6.228.92&SecurityKey=20260426111133&promotionId=&mvid=5102910396&mcid=500020&playurlVersion=WX-A1-9.3.2-RELEASE&userid=1834153345&jmhm=f863b466d46e2ff46401579155d4a125&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=5a07da3fdaa858579ee0ab0711c07a85
-#EXTINF:-1 tvg-id="湖南卫视" tvg-name="湖南卫视" tvg-logo="" group-title="卫视频道",湖南卫视
-http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/Y2RuZXhfaWQ9YWxfaGxzX2xkdnQmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8
 #EXTINF:-1 tvg-id="湖南卫视" tvg-name="湖南卫视" tvg-logo="" group-title="卫视频道",湖南卫视
 http://69.30.246.194/live/hnws.m3u8
 #EXTINF:-1 tvg-id="湖南卫视" tvg-name="湖南卫视" tvg-logo="" group-title="卫视频道",湖南卫视
@@ -353,7 +349,7 @@ https://stream.hrbtv.net/zxpd/sd/live.m3u8
 http://stream.hrbtv.net/ylpd/sd/live.m3u8
 #EXTINF:-1 tvg-id="哈尔滨影视" tvg-name="哈尔滨影视" tvg-logo="" group-title="黑龙江地区",哈尔滨影视
 https://stream.hrbtv.net/yspd/sd/live.m3u8
-#EXTINF:-1 tvg-id="哈尔滨影视" tvg-name="哈尔滨影视" tvg-logo="" group-title="黑龙江地区",哈尔滨影视
+#EXTINF:-1 tvg-id="哈尔��影视" tvg-name="哈尔��影视" tvg-logo="" group-title="黑龙江地区",哈尔��影视
 http://stream.hrbtv.net/yspd/sd/live.m3u8
 #EXTINF:-1 tvg-id="伊春综合" tvg-name="伊春综合" tvg-logo="" group-title="黑龙江地区",伊春综合
 https://masterpull.hljtv.com/live/vQtnS3vX.m3u8
