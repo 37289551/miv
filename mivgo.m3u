@@ -5,8 +5,6 @@ http://play.kankanlive.com/live/1698234869325962.m3u8
 http://pull-hls-f11.douyincdn.com/media/stream-695715623379403436.m3u8?expire=1778193009&sign=45fe2b90306250f83c8803f9a636a49d&arch_hrchy=w1&exp_hrchy=w1&neq=1&major_anchor_level=common&t_id=037-20260501063009D573D93A189AC1017167-huDcbM
 #EXTINF:-1 tvg-id="CCTV-16" tvg-name="CCTV-16" tvg-logo="" group-title="央视频道",CCTV-16
 http://38.75.136.137:98/gslb/dsdqpub/cctv16hd.m3u8?auth=testpub
-#EXTINF:-1 tvg-id="CCTV-16" tvg-name="CCTV-16" tvg-logo="" group-title="央视频道",CCTV-16
-http://173.208.223.226:82/live/cctv16md.m3u8?jsbt=1772069348&jsbk=71ccb68cbde431d790236c8c40a056e3
 #EXTINF:-1 tvg-id="湖南卫视" tvg-name="湖南卫视" tvg-logo="" group-title="卫视频道",湖南卫视
 http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/Y2RuZXhfaWQ9YWxfaGxzX2xkdnQmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8
 #EXTINF:-1 tvg-id="湖南卫视" tvg-name="湖南卫视" tvg-logo="" group-title="卫视频道",湖南卫视
@@ -43,8 +41,6 @@ http://play.kankanlive.com/live/1698234869325962.m3u8
 http://pull-hls-f11.douyincdn.com/media/stream-695715623379403436.m3u8?expire=1778193009&sign=45fe2b90306250f83c8803f9a636a49d&arch_hrchy=w1&exp_hrchy=w1&neq=1&major_anchor_level=common&t_id=037-20260501063009D573D93A189AC1017167-huDcbM
 #EXTINF:-1 tvg-id="CCTV-16" tvg-name="CCTV-16" tvg-logo="" group-title="央视频道",CCTV-16
 http://38.75.136.137:98/gslb/dsdqpub/cctv16hd.m3u8?auth=testpub
-#EXTINF:-1 tvg-id="CCTV-16" tvg-name="CCTV-16" tvg-logo="" group-title="央视频道",CCTV-16
-http://173.208.223.226:82/live/cctv16md.m3u8?jsbt=1772069348&jsbk=71ccb68cbde431d790236c8c40a056e3
 #EXTINF:-1 tvg-id="湖南卫视" tvg-name="湖南卫视" tvg-logo="" group-title="卫视频道",湖南卫视
 http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/Y2RuZXhfaWQ9YWxfaGxzX2xkdnQmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8
 #EXTINF:-1 tvg-id="湖南卫视" tvg-name="湖南卫视" tvg-logo="" group-title="卫视频道",湖南卫视
@@ -167,7 +163,7 @@ https://masterpull.hljtv.com/live/vQtnS3vX.m3u8
 https://rmplive.hljtv.com/live/yichun.m3u8
 #EXTINF:-1 tvg-id="漠河综合" tvg-name="漠河综合" tvg-logo="" group-title="黑龙江地区",漠河综合
 https://masterpull.hljtv.com/live/rlVvbTZN.m3u8
-#EXTINF:-1 tvg-id="大庆��闻综合" tvg-name="大庆��闻综合" tvg-logo="" group-title="黑龙江地区",大庆��闻综合
+#EXTINF:-1 tvg-id="大庆新闻综合" tvg-name="大庆新闻综合" tvg-logo="" group-title="黑龙江地区",大庆新闻综合
 https://masterpull.hljtv.com/live/4WdrZLCq.m3u8
 #EXTINF:-1 tvg-id="东宁综合" tvg-name="东宁综合" tvg-logo="" group-title="黑龙江地区",东宁综合
 https://masterpull.hljtv.com/live/UQdxnsw8.m3u8
@@ -195,10 +191,12 @@ https://rmplive.hljtv.com/live/qitaihe.m3u8
 https://masterpull.hljtv.com/live/6rx9bifO.m3u8
 #EXTINF:-1 tvg-id="绥化新闻综合" tvg-name="绥化新闻综合" tvg-logo="" group-title="黑龙江地区",绥化新闻综合
 https://masterpull.hljtv.com/live/v4o2g1hs.m3u8
-#EXTINF:-1 tvg-id="绥化新闻综合" tvg-name="绥化新闻综合" tvg-logo="" group-title="黑龙江地区",绥化新闻综合
+#EXTINF:-1 tvg-id="绥化新闻综��" tvg-name="绥化新闻综��" tvg-logo="" group-title="黑龙江地区",绥化新闻综��
 https://rmplive.hljtv.com/live/suihua.m3u8
 #EXTINF:-1 tvg-id="安达综合" tvg-name="安达综合" tvg-logo="" group-title="黑龙江地区",安达综合
 https://masterpull.hljtv.com/live/FsGxlDZQ.m3u8
+#EXTINF:-1 tvg-id="海伦市综合" tvg-name="海伦市综合" tvg-logo="" group-title="黑龙江地区",海伦市综合
+https://masterpull.hljtv.com/live/VFNlgeFO.m3u8
 #EXTINF:-1 tvg-id="大兴安岭新闻综合" tvg-name="大兴安岭新闻综合" tvg-logo="" group-title="黑龙江地区",大兴安岭新闻综合
 https://masterpull.hljtv.com/live/H2kVyS15.m3u8
 #EXTINF:-1 tvg-id="大兴安岭新闻综合" tvg-name="大兴安岭新闻综合" tvg-logo="" group-title="黑龙江地区",大兴安岭新闻综合
