@@ -293,7 +293,7 @@ http://l.cztvcloud.com/channels/lantian/SXyuyao1/720p.m3u8
 http://l.cztvcloud.com/channels/lantian/SXxiaoshan1/720p.m3u8
 #EXTINF:-1 tvg-id="萧山生活" tvg-name="萧山生活" tvg-logo="" group-title="浙江地区",萧山生活
 http://l.cztvcloud.com/channels/lantian/SXxiaoshan2/720p.m3u8
-#EXTINF:-1 tvg-id="上虞新闻���合" tvg-name="上虞新闻���合" tvg-logo="" group-title="浙江地区",上虞新闻���合
+#EXTINF:-1 tvg-id="上虞新闻综合" tvg-name="上虞新闻综合" tvg-logo="" group-title="浙江地区",上虞新闻综合
 http://l.cztvcloud.com/channels/lantian/SXshangyu1/720p.m3u8
 #EXTINF:-1 tvg-id="上虞文化影视" tvg-name="上虞文化影视" tvg-logo="" group-title="浙江地区",上虞文化影视
 http://l.cztvcloud.com/channels/lantian/SXshangyu2/720p.m3u8
@@ -323,9 +323,9 @@ http://nklive.nbs.cn/hls/e0981f3f-1a20-4a59-b8d1-17feb83a4610/index.m3u8
 http://stream.thmz.com/wxtv1/sd/live.m3u8
 #EXTINF:-1 tvg-id="无锡都市资讯" tvg-name="无锡都市资讯" tvg-logo="" group-title="江苏地区",无锡都市资讯
 http://stream.thmz.com/wxtv3/sd/live.m3u8
-#EXTINF:-1 tvg-id="无���生活" tvg-name="无���生活" tvg-logo="" group-title="江苏地区",无���生活
+#EXTINF:-1 tvg-id="无锡生活" tvg-name="无锡生活" tvg-logo="" group-title="江苏地区",无锡生活
 http://stream.thmz.com/wxtv4/sd/live.m3u8
-#EXTINF:-1 tvg-id="无锡娱乐" tvg-name="无锡娱乐" tvg-logo="" group-title="江苏地区",无锡娱乐
+#EXTINF:-1 tvg-id="无��娱乐" tvg-name="无��娱乐" tvg-logo="" group-title="江苏地区",无��娱乐
 http://stream.thmz.com/wxtv2/sd/live.m3u8
 #EXTINF:-1 tvg-id="无锡经济" tvg-name="无锡经济" tvg-logo="" group-title="江苏地区",无锡经济
 http://stream.thmz.com/wxtv5/sd/live.m3u8
