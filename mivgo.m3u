@@ -61,7 +61,7 @@ http://ali-xwl.cztv.com/live/channel01720Plxw.m3u8
 http://ali-xwl.cztv.com/live/channel4k2160p.m3u8
 #EXTINF:-1 tvg-id="江苏卫视" tvg-name="江苏卫视" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/199/408/202104022140_5100156802_H32_1080.webp" group-title="卫视频道",江苏卫视
 http://hlsztemgsplive.miguvideo.com:8080/wd_r2/cctv/jiangsuhd/1200/index.m3u8?msisdn=f863b466d46e2ff46401579155d4a125&mdspid=&spid=699067&netType=4&sid=5500199408&pid=2028597139&timestamp=20260530222658&Channel_ID=0116_2600037000-99000-200300220107147&ProgramID=623899368&ParentNodeID=-99&assertID=5500199408&client_ip=221.211.17.26&SecurityKey=20260530222658&promotionId=&mvid=5100156802&mcid=500020&playurlVersion=ZQ-A1-9.5.1.2-RELEASE&userid=1834153345&jmhm=f863b466d46e2ff46401579155d4a125&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=e5ca8c1887420accb61a53af21665437
-#EXTINF:-1 tvg-id="江苏卫视" tvg-name="江苏卫视" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/199/408/202104022140_5100156802_H32_1080.webp" group-title="卫视频道",江苏卫视
+#EXTINF:-1 tvg-id="江苏���视" tvg-name="江苏���视" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/199/408/202104022140_5100156802_H32_1080.webp" group-title="卫视频道",江苏���视
 https://hlsbkmgsplive.miguvideo.com/migu/kailu/jswshd265/55/20200407/01.m3u8?&HlsSubType=&encrypt=
 #EXTINF:-1 tvg-id="东方卫视" tvg-name="东方卫视" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/185/202508040856_5100043384_H32_1080.webp" group-title="卫视频道",东方卫视
 http://hlsztemgsplive.miguvideo.com:8080/wd_r4/dfl/dongfangwshd/1200/index.m3u8?msisdn=f863b466d46e2ff46401579155d4a125&mdspid=&spid=600697&netType=4&sid=5910022185&pid=2028597139&timestamp=20260530221234&Channel_ID=0116_2600037000-99000-200300220107127&ProgramID=651632648&ParentNodeID=-99&assertID=5910022185&client_ip=218.9.21.67&SecurityKey=20260530221234&promotionId=&mvid=5100043384&mcid=500020&playurlVersion=ZQ-A1-9.5.1.2-RELEASE&userid=1834153345&jmhm=f863b466d46e2ff46401579155d4a125&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=acdce04d79354c94016ef7cb3fa2d78c
@@ -155,7 +155,7 @@ http://ali-xwl.cztv.com/live/channel01720Plxw.m3u8
 http://ali-xwl.cztv.com/live/channel4k2160p.m3u8
 #EXTINF:-1 tvg-id="江苏卫视" tvg-name="江苏卫视" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/199/408/202104022140_5100156802_H32_1080.webp" group-title="卫视频道",江苏卫视
 http://hlsztemgsplive.miguvideo.com:8080/wd_r2/cctv/jiangsuhd/1200/index.m3u8?msisdn=f863b466d46e2ff46401579155d4a125&mdspid=&spid=699067&netType=4&sid=5500199408&pid=2028597139&timestamp=20260530222658&Channel_ID=0116_2600037000-99000-200300220107147&ProgramID=623899368&ParentNodeID=-99&assertID=5500199408&client_ip=221.211.17.26&SecurityKey=20260530222658&promotionId=&mvid=5100156802&mcid=500020&playurlVersion=ZQ-A1-9.5.1.2-RELEASE&userid=1834153345&jmhm=f863b466d46e2ff46401579155d4a125&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=e5ca8c1887420accb61a53af21665437
-#EXTINF:-1 tvg-id="江苏卫视" tvg-name="江苏卫视" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/199/408/202104022140_5100156802_H32_1080.webp" group-title="卫视频道",江苏卫视
+#EXTINF:-1 tvg-id="江苏���视" tvg-name="江苏���视" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/199/408/202104022140_5100156802_H32_1080.webp" group-title="卫视频道",江苏���视
 https://hlsbkmgsplive.miguvideo.com/migu/kailu/jswshd265/55/20200407/01.m3u8?&HlsSubType=&encrypt=
 #EXTINF:-1 tvg-id="东方卫视" tvg-name="东方卫视" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/185/202508040856_5100043384_H32_1080.webp" group-title="卫视频道",东方卫视
 http://hlsztemgsplive.miguvideo.com:8080/wd_r4/dfl/dongfangwshd/1200/index.m3u8?msisdn=f863b466d46e2ff46401579155d4a125&mdspid=&spid=600697&netType=4&sid=5910022185&pid=2028597139&timestamp=20260530221234&Channel_ID=0116_2600037000-99000-200300220107127&ProgramID=651632648&ParentNodeID=-99&assertID=5910022185&client_ip=218.9.21.67&SecurityKey=20260530221234&promotionId=&mvid=5100043384&mcid=500020&playurlVersion=ZQ-A1-9.5.1.2-RELEASE&userid=1834153345&jmhm=f863b466d46e2ff46401579155d4a125&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=acdce04d79354c94016ef7cb3fa2d78c
@@ -305,8 +305,6 @@ https://masterpull.hljtv.com/live/4WdrZLCq.m3u8
 https://masterpull.hljtv.com/live/UQdxnsw8.m3u8
 #EXTINF:-1 tvg-id="黑河新闻综合" tvg-name="黑河新闻综合" tvg-logo="" group-title="黑龙江地区",黑河新闻综合
 https://masterpull.hljtv.com/live/iyoENgSP.m3u8
-#EXTINF:-1 tvg-id="鹤岗综合" tvg-name="鹤岗综合" tvg-logo="" group-title="黑龙江地区",鹤岗综合
-https://masterpull.hljtv.com/live/rApKWXbX.m3u8
 #EXTINF:-1 tvg-id="鹤岗综合" tvg-name="鹤岗综合" tvg-logo="" group-title="黑龙江地区",鹤岗综合
 https://rmplive.hljtv.com/live/hegang.m3u8
 #EXTINF:-1 tvg-id="富锦综合" tvg-name="富锦综合" tvg-logo="" group-title="黑龙江地区",富锦综合
