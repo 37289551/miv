@@ -1,5 +1,5 @@
 #EXTM3U x-tvg-url="https://gh-proxy.com/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/playback.xml,https://hk.gh-proxy.org/raw.githubusercontent.com/develop202/migu_video/refs/heads/main/playback.xml,https://develop202.github.io/migu_video/playback.xml,https://raw.githubusercontents.com/develop202/migu_video/refs/heads/main/playback.xml" catchup="append" catchup-source="&playbackbegin=${(b)yyyyMMddHHmmss}&playbackend=${(e)yyyyMMddHHmmss}"
-#EXTINF:-1 tvg-id="更新日期: 2026-6-1 06:33:05" tvg-name="更新日期: 2026-6-1 06:33:05" tvg-logo="" group-title="央视频道",更新日期: 2026-6-1 06:33:05
+#EXTINF:-1 tvg-id="更新日期: 2026-6-1 08:59:05" tvg-name="更新日期: 2026-6-1 08:59:05" tvg-logo="" group-title="央视频道",更新日期: 2026-6-1 08:59:05
 http://hlsztemgsplive.miguvideo.com:8080/wd_r2/cctv/cctv1hd/1200/index.m3u8?msisdn=f863b466d46e2ff46401579155d4a125&mdspid=&spid=699004&netType=4&sid=2201057821&pid=2028597139&timestamp=20260601061101&Channel_ID=0116_2600037000-99000-200300220107350&ProgramID=608807420&ParentNodeID=-99&assertID=2201057821&client_ip=60.217.33.46&SecurityKey=20260601061101&promotionId=&mvid=2201057821&mcid=500020&playurlVersion=ZQ-A1-9.5.1.2-RELEASE&userid=1834153345&jmhm=f863b466d46e2ff46401579155d4a125&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=4bdc93361372179a80aec7de28efd9b7
 #EXTINF:-1 tvg-id="CCTV-1" tvg-name="CCTV-1" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2201/057/821/202204010054_1626677671392_H32_1080.webp" group-title="央视频道",CCTV-1
 http://hlsztemgsplive.miguvideo.com:8080/wd_r2/cctv/cctv1hd/1200/index.m3u8?msisdn=f863b466d46e2ff46401579155d4a125&mdspid=&spid=699004&netType=4&sid=2201057821&pid=2028597139&timestamp=20260601061032&Channel_ID=0116_2600037000-99000-200300220107349&ProgramID=608807420&ParentNodeID=-99&assertID=2201057821&client_ip=218.58.139.15&SecurityKey=20260601061032&promotionId=&mvid=2201057821&mcid=500020&playurlVersion=ZQ-A1-9.5.1.2-RELEASE&userid=1834153345&jmhm=f863b466d46e2ff46401579155d4a125&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=8f58d918ad124c2a5e8e47575cba7414
@@ -103,7 +103,7 @@ https://hlsbkmgsplive.miguvideo.com/envivo_v/2018/SD/jilin/1000/01.m3u8?&HlsSubT
 http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/jxwshd/51/20190820/index.m3u8?msisdn=f863b466d46e2ff46401579155d4a125&mdspid=&spid=600633&netType=4&sid=5910021492&pid=2028597139&timestamp=20260601055622&Channel_ID=0116_2600037000-99000-200300220107327&ProgramID=783847495&ParentNodeID=-99&assertID=5910021492&client_ip=27.221.13.146&SecurityKey=20260601055622&promotionId=&mvid=5900004351&mcid=500020&playurlVersion=ZQ-A1-9.5.1.2-RELEASE&userid=1834153345&jmhm=f863b466d46e2ff46401579155d4a125&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=9d711b7921c17e95a67ed93ff81ee244
 #EXTINF:-1 tvg-id="兵团卫视" tvg-name="兵团卫视" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/192/202508061552_1754385902654_H32_1080.webp" group-title="卫视频道",兵团卫视
 https://hlsbkmgsplive.miguvideo.com/migu/kailu/btws/51/20250804/01.m3u8?&HlsSubType=&encrypt=
-#EXTINF:-1 tvg-id="更新日期: 2026-6-1 06:33:05" tvg-name="更新日期: 2026-6-1 06:33:05" tvg-logo="" group-title="央视频道",更新日期: 2026-6-1 06:33:05
+#EXTINF:-1 tvg-id="更新日期: 2026-6-1 08:59:05" tvg-name="更新日期: 2026-6-1 08:59:05" tvg-logo="" group-title="央视频道",更新日期: 2026-6-1 08:59:05
 http://hlsztemgsplive.miguvideo.com:8080/wd_r2/cctv/cctv1hd/1200/index.m3u8?msisdn=f863b466d46e2ff46401579155d4a125&mdspid=&spid=699004&netType=4&sid=2201057821&pid=2028597139&timestamp=20260601061101&Channel_ID=0116_2600037000-99000-200300220107350&ProgramID=608807420&ParentNodeID=-99&assertID=2201057821&client_ip=60.217.33.46&SecurityKey=20260601061101&promotionId=&mvid=2201057821&mcid=500020&playurlVersion=ZQ-A1-9.5.1.2-RELEASE&userid=1834153345&jmhm=f863b466d46e2ff46401579155d4a125&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=4bdc93361372179a80aec7de28efd9b7
 #EXTINF:-1 tvg-id="CCTV-1" tvg-name="CCTV-1" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2201/057/821/202204010054_1626677671392_H32_1080.webp" group-title="央视频道",CCTV-1
 http://hlsztemgsplive.miguvideo.com:8080/wd_r2/cctv/cctv1hd/1200/index.m3u8?msisdn=f863b466d46e2ff46401579155d4a125&mdspid=&spid=699004&netType=4&sid=2201057821&pid=2028597139&timestamp=20260601061032&Channel_ID=0116_2600037000-99000-200300220107349&ProgramID=608807420&ParentNodeID=-99&assertID=2201057821&client_ip=218.58.139.15&SecurityKey=20260601061032&promotionId=&mvid=2201057821&mcid=500020&playurlVersion=ZQ-A1-9.5.1.2-RELEASE&userid=1834153345&jmhm=f863b466d46e2ff46401579155d4a125&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=8f58d918ad124c2a5e8e47575cba7414
@@ -273,7 +273,7 @@ http://l.cztvcloud.com/channels/lantian/SXdongyang1/720p.m3u8
 http://l.cztvcloud.com/channels/lantian/SXlanxi1/720p.m3u8
 #EXTINF:-1 tvg-id="缙云新闻综合" tvg-name="缙云新闻综合" tvg-logo="" group-title="浙江地区",缙云新闻综合
 http://l.cztvcloud.com/channels/lantian/SXjinyun1/720p.m3u8
-#EXTINF:-1 tvg-id="龙泉电视台" tvg-name="龙泉电视台" tvg-logo="" group-title="浙江地区",龙泉电视台
+#EXTINF:-1 tvg-id="龙���电视台" tvg-name="龙���电视台" tvg-logo="" group-title="浙江地区",龙���电视台
 http://l.cztvcloud.com/channels/lantian/SXlongquan1/720p.m3u8
 #EXTINF:-1 tvg-id="南京新闻综合" tvg-name="南京新闻综合" tvg-logo="" group-title="江苏地区",南京新闻综合
 http://nklive.nbs.cn/hls/d511bc9d-a694-4453-b3a2-4fc842cc97a1/index.m3u8
@@ -295,8 +295,6 @@ http://stream.thmz.com/wxtv4/sd/live.m3u8
 http://stream.thmz.com/wxtv2/sd/live.m3u8
 #EXTINF:-1 tvg-id="无锡经济" tvg-name="无锡经济" tvg-logo="" group-title="江苏地区",无锡经济
 http://stream.thmz.com/wxtv5/sd/live.m3u8
-#EXTINF:-1 tvg-id="宜兴新闻综合" tvg-name="宜兴新闻综合" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/179/202506121843_1749617094510_H32_1080.webp" group-title="江苏地区",宜兴新闻综合
-http://yixing-tv-ori-hls.jstv.com/yixing-tv-ori/yixing_xw.m3u8
 #EXTINF:-1 tvg-id="哈尔滨新闻综合" tvg-name="哈尔滨新闻综合" tvg-logo="" group-title="黑龙江地区",哈尔滨新闻综合
 https://rmplive.hljtv.com/live/haerbin.m3u8
 #EXTINF:-1 tvg-id="哈尔滨新闻综合" tvg-name="哈尔滨新闻综合" tvg-logo="" group-title="黑龙江地区",哈尔滨新闻综合
@@ -355,7 +353,5 @@ https://rmplive.hljtv.com/live/suihua.m3u8
 https://masterpull.hljtv.com/live/FsGxlDZQ.m3u8
 #EXTINF:-1 tvg-id="海伦市综合" tvg-name="海伦市综合" tvg-logo="" group-title="黑龙江地区",海伦市综合
 https://masterpull.hljtv.com/live/VFNlgeFO.m3u8
-#EXTINF:-1 tvg-id="大兴安岭新闻综合" tvg-name="大兴安岭新闻综合" tvg-logo="" group-title="黑龙江地区",大兴安岭新闻综合
-https://masterpull.hljtv.com/live/H2kVyS15.m3u8
 #EXTINF:-1 tvg-id="大兴安岭新闻综合" tvg-name="大兴安岭新闻综合" tvg-logo="" group-title="黑龙江地区",大兴安岭新闻综合
 https://rmplive.hljtv.com/live/daxinganling.m3u8
