@@ -1,13 +1,10 @@
 央视频道,#genre#
 CCTV1综合,http://play.kankanlive.com/live/1698234869325962.m3u8
-CCTV16奥林匹克,http://38.75.136.137:98/gslb/dsdqpub/cctv16hd.m3u8?auth=testpub
 CCTV17农业农村,http://pull-hs-f5.flive.douyincdn.com/media/stream-696043448233099948/index.m3u8?expire=1782532821&sign=4c2b42e90e03a530749948b9977cc29f&volcSecret=4c2b42e90e03a530749948b9977cc29f&volcTime=1782532821&exp_hrchy=w1&major_anchor_level=common&arch_hrchy=w1&t_id=037-2026062012002176400E1B74D5C1E26C83-cz4LEx
-CCTV17农业农村,https://tx-origin.pull.yximgs.com/gifshow/kwai_actL_ol_act_14756585903_strL_GameAvcHdL0.flv?txSecret=e454b350b35a96856ffac9641a922939&txTime=6a373bd7&stat=%2BKZkponMaMYxyaWDLdcNSgeLkbtVEzgWCuDJZAObttnych3xCfsSiekNSV6ViUCV&tsc=origin&oidc=watchmen&sidc=2062&no_script=1&srcStrm=n_2LIMCMwNg&fd=0&ss=s20&tfc_buyer=0
 卫视频道,#genre#
 湖南卫视,http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/Y2RuZXhfaWQ9YWxfaGxzX2xkdnQmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8
 浙江卫视,http://ali-xwl.cztv.com/live/channel011080Plxw.m3u8
 浙江卫视,http://ali-xwl.cztv.com/live/channel01720Plxw.m3u8
-广西卫视,http://61.169.47.100:10081/hls/21/index.m3u8
 广东地区,#genre#
 广东民生,http://38.75.136.137:98/gslb/dsdqpub/gdgg.m3u8?auth=testpub
 广东新闻,http://38.75.136.137:98/gslb/dsdqpub/gdxw.m3u8?auth=testpub
@@ -62,6 +59,7 @@ CCTV17农业农村,https://tx-origin.pull.yximgs.com/gifshow/kwai_actL_ol_act_14
 无锡生活,http://stream.thmz.com/wxtv4/sd/live.m3u8
 无锡娱乐,http://stream.thmz.com/wxtv2/sd/live.m3u8
 无锡经济,http://stream.thmz.com/wxtv5/sd/live.m3u8
+宜兴新闻综合,http://yixing-tv-ori-hls.jstv.com/yixing-tv-ori/yixing_xw.m3u8
 北京地区,#genre#
 黑龙江地区,#genre#
 哈尔滨新闻综合,https://stream.hrbtv.net/xwzh/sd/live.m3u8
@@ -294,7 +292,6 @@ CCTV17农业农村,https://tx-origin.pull.yximgs.com/gifshow/kwai_actL_ol_act_14
 宁夏地区,#genre#
 青海地区,#genre#
 超清频道,#genre#
-CCTV13超清,http://pull-hls-f1.douyinliving.com/media/stream-696031215627010898/playlist.m3u8?keeptime=00093a80&wsSecret=1bebd13d7482ab1a6f4971ff549fa2e0&wsTime=6a349a1b&major_anchor_level=vip&s_anchor=1&arch_hrchy=s2&t_id=037-20260619092339689A6E65E32436425877-oeHxgW
 CCTV16超清,http://38.75.136.137:98/gslb/dsdqpub/cctv16hd.m3u8?auth=testpub
 CCTV17超清,http://pull-hs-f5.flive.douyincdn.com/media/stream-696043448233099948/index.m3u8?expire=1782532821&sign=4c2b42e90e03a530749948b9977cc29f&volcSecret=4c2b42e90e03a530749948b9977cc29f&volcTime=1782532821&exp_hrchy=w1&major_anchor_level=common&arch_hrchy=w1&t_id=037-2026062012002176400E1B74D5C1E26C83-cz4LEx
 湖南卫视超清,http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/Y2RuZXhfaWQ9YWxfaGxzX2xkdnQmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8
