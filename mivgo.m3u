@@ -259,7 +259,7 @@ http://nklive.nbs.cn/hls/1173a815-bfdb-4c3c-9f73-89ec37ae7716/index.m3u8
 http://nklive.nbs.cn/hls/e0981f3f-1a20-4a59-b8d1-17feb83a4610/index.m3u8
 #EXTINF:-1 tvg-id="无锡新闻综合" tvg-name="无锡新闻综合" tvg-logo="" group-title="江苏地区",无锡新闻综合
 http://stream.thmz.com/wxtv1/sd/live.m3u8
-#EXTINF:-1 tvg-id="无锡都市资讯" tvg-name="无锡都市资讯" tvg-logo="" group-title="江苏地区",无锡都市资讯
+#EXTINF:-1 tvg-id="无���都市资讯" tvg-name="无���都市资讯" tvg-logo="" group-title="江苏地区",无���都市资讯
 http://stream.thmz.com/wxtv3/sd/live.m3u8
 #EXTINF:-1 tvg-id="无锡生活" tvg-name="无锡生活" tvg-logo="" group-title="江苏地区",无锡生活
 http://stream.thmz.com/wxtv4/sd/live.m3u8
@@ -323,8 +323,6 @@ https://masterpull.hljtv.com/live/6rx9bifO.m3u8
 https://masterpull.hljtv.com/live/v4o2g1hs.m3u8
 #EXTINF:-1 tvg-id="绥化新闻综合" tvg-name="绥化新闻综合" tvg-logo="" group-title="黑龙江地区",绥化新闻综合
 https://rmplive.hljtv.com/live/suihua.m3u8
-#EXTINF:-1 tvg-id="安达综合" tvg-name="安达综合" tvg-logo="" group-title="黑龙江地区",安达综合
-https://masterpull.hljtv.com/live/FsGxlDZQ.m3u8
 #EXTINF:-1 tvg-id="海伦市综合" tvg-name="海伦市综合" tvg-logo="" group-title="黑龙江地区",海伦市综合
 https://masterpull.hljtv.com/live/VFNlgeFO.m3u8
 #EXTINF:-1 tvg-id="大兴安岭新闻综合" tvg-name="大兴安岭新闻综合" tvg-logo="" group-title="黑龙江地区",大兴安岭新闻综合
