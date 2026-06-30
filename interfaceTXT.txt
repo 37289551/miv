@@ -6,15 +6,12 @@ CCTV16奥林匹克,http://38.75.136.137:98/gslb/dsdqpub/cctv16hd.m3u8?auth=testp
 湖南卫视,http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/Y2RuZXhfaWQ9YWxfaGxzX2xkdnQmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8
 浙江卫视,http://ali-xwl.cztv.com/live/channel011080Plxw.m3u8
 浙江卫视,http://ali-xwl.cztv.com/live/channel01720Plxw.m3u8
-天津卫视,http://183.185.150.10:9003/hls/19/index.m3u8
 黑龙江卫视,http://183.185.150.10:9003/hls/31/index.m3u8
 重庆卫视,http://183.185.150.10:9003/hls/22/index.m3u8
 广东地区,#genre#
 广东民生,http://38.75.136.137:98/gslb/dsdqpub/gdgg.m3u8?auth=testpub
 广东新闻,http://38.75.136.137:98/gslb/dsdqpub/gdxw.m3u8?auth=testpub
 广东嘉佳卡通,http://183.234.143.5:85/tsfile/live/1069_1.m3u8?key=txiptv&playlive=0&authid=0
-广东少儿,http://183.234.143.5:85/tsfile/live/1001_1.m3u8?key=txiptv&playlive=0&authid=0
-广东影视,http://183.234.143.5:85/tsfile/live/1034_1.m3u8?key=txiptv&playlive=0&authid=0
 广东影视,http://120.238.85.131:9901/tsfile/live/1017_1.m3u8?key=txiptv&playlive=0&authid=0
 深圳少儿,http://120.233.73.4:19901/tsfile/live/1035_1.m3u8?key=txiptv&playlive=1&authid=0
 深圳都市,http://120.233.73.4:19901/tsfile/live/1037_1.m3u8?key=txiptv&playlive=1&authid=0
@@ -138,6 +135,8 @@ CCTV16奥林匹克,http://38.75.136.137:98/gslb/dsdqpub/cctv16hd.m3u8?auth=testp
 济源综合,http://live.dxhmt.cn:9081/tv/19001-1.m3u8
 兰考综合,http://tvpull.dxhmt.cn:9081/tv/10225-1.m3u8
 兰考综合,http://live.dxhmt.cn:9081/tv/10225-1.m3u8
+洛阳科教,http://devlivepull.migucloud.com/live/A2HVH5BQ_C0.flv
+洛阳文旅,http://devlivepull.migucloud.com/live/Q081CD54_C0.flv
 伊川综合,http://tvpull.dxhmt.cn:9081/tv/10329-1.m3u8
 伊川综合,http://live.dxhmt.cn:9081/tv/10329-1.m3u8
 长垣综合,http://tvpull.dxhmt.cn:9081/tv/10728-1.m3u8
@@ -296,6 +295,7 @@ CCTV16奥林匹克,http://38.75.136.137:98/gslb/dsdqpub/cctv16hd.m3u8?auth=testp
 青海地区,#genre#
 超清频道,#genre#
 CCTV2超清,http://pull-hs-f5.flive.douyincdn.com/media/stream-407850689824817836/index.m3u8?expire=1783088847&sign=787d2fefbeda003c8ca05c07d4d06b4f&volcSecret=787d2fefbeda003c8ca05c07d4d06b4f&volcTime=1783088847&arch_hrchy=w1&exp_hrchy=w1&major_anchor_level=common&t_id=037-20260626222726B1D3E9FBB8FAA14275FD-cK1NAV
+CCTV13超清,http://pull-hls-f1.douyinliving.com/media/stream-696095559336854354/playlist.m3u8?keeptime=00093a80&wsSecret=77c7c3910195c7e6942e2eda89b5f3d5&wsTime=6a4244f7&s_anchor=1&arch_hrchy=s2&major_anchor_level=vip&t_id=037-202606291812062E016E9182C621430E0F-qZjWnV
 CCTV16超清,http://38.75.136.137:98/gslb/dsdqpub/cctv16hd.m3u8?auth=testpub
 湖南卫视超清,http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/Y2RuZXhfaWQ9YWxfaGxzX2xkdnQmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8
 浙江卫视超清,http://ali-xwl.cztv.com/live/channel011080Plxw.m3u8
