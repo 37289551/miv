@@ -221,6 +221,8 @@ http://stream.thmz.com/wxtv1/sd/live.m3u8
 http://stream.thmz.com/wxtv3/sd/live.m3u8
 #EXTINF:-1 tvg-id="无锡生活" tvg-name="无锡生活" tvg-logo="" group-title="江苏地区",无锡生活
 http://stream.thmz.com/wxtv4/sd/live.m3u8
+#EXTINF:-1 tvg-id="无锡娱乐" tvg-name="无锡娱乐" tvg-logo="" group-title="江苏地区",无锡娱乐
+http://stream.thmz.com/wxtv2/sd/live.m3u8
 #EXTINF:-1 tvg-id="无锡经济" tvg-name="无锡经济" tvg-logo="" group-title="江苏地区",无锡经济
 http://stream.thmz.com/wxtv5/sd/live.m3u8
 #EXTINF:-1 tvg-id="哈尔滨新闻综合" tvg-name="哈尔滨新闻综合" tvg-logo="" group-title="黑龙江地区",哈尔滨新闻综合
@@ -235,7 +237,7 @@ https://stream.hrbtv.net/shpd/sd/live.m3u8
 http://stream.hrbtv.net/shpd/sd/live.m3u8
 #EXTINF:-1 tvg-id="哈尔滨资讯" tvg-name="哈尔滨资讯" tvg-logo="" group-title="黑龙江地区",哈尔滨资讯
 https://stream.hrbtv.net/zxpd/sd/live.m3u8
-#EXTINF:-1 tvg-id="哈尔滨娱乐" tvg-name="哈尔滨娱乐" tvg-logo="" group-title="黑龙江地区",哈尔滨娱乐
+#EXTINF:-1 tvg-id="哈尔���娱乐" tvg-name="哈尔���娱乐" tvg-logo="" group-title="黑龙江地区",哈尔���娱乐
 http://stream.hrbtv.net/ylpd/sd/live.m3u8
 #EXTINF:-1 tvg-id="哈尔滨影视" tvg-name="哈尔滨影视" tvg-logo="" group-title="黑龙江地区",哈尔滨影视
 https://stream.hrbtv.net/yspd/sd/live.m3u8
@@ -283,5 +285,5 @@ https://masterpull.hljtv.com/live/FsGxlDZQ.m3u8
 https://masterpull.hljtv.com/live/VFNlgeFO.m3u8
 #EXTINF:-1 tvg-id="大兴安岭新闻综合" tvg-name="大兴安岭新闻综合" tvg-logo="" group-title="黑龙江地区",大兴安岭新闻综合
 https://masterpull.hljtv.com/live/H2kVyS15.m3u8
-#EXTINF:-1 tvg-id="大兴安岭新闻综合" tvg-name="大兴安岭新闻综合" tvg-logo="" group-title="黑龙江地区",大兴安岭新闻综合
+#EXTINF:-1 tvg-id="大兴安岭新���综合" tvg-name="大兴安岭新���综合" tvg-logo="" group-title="黑龙江地区",大兴安岭新���综合
 https://rmplive.hljtv.com/live/daxinganling.m3u8
