@@ -97,7 +97,7 @@ http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/bjws/51/20251127/index.m3u8?
 http://hlsztemgsplive.miguvideo.com:8080/wd_r2/2018/ocn/hubeiwshd/2000/index.m3u8?msisdn=df848c3c5c683da0acfbf8d41297cd23&mdspid=&spid=600633&netType=0&sid=5910022163&pid=2028597139&timestamp=20260718230846&Channel_ID=0116_2600034600-99000-201600010093668&ProgramID=947472496&ParentNodeID=-99&assertID=5910022163&client_ip=36.213.35.207&SecurityKey=20260718230846&promotionId=&mvid=5900004355&mcid=500020&playurlVersion=ZQ-A1-9.6.1.6-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=8d3a85e9db92096d5b5ee2b6ff6b257c&sv=10004&ct=android
 #EXTINF:-1 tvg-id="湖北卫视" tvg-name="湖北卫视" tvg-logo="" group-title="卫视频道",湖北卫视
 http://hlsztemgsplive.miguvideo.com:8080/wd_r2/2018/ocn/hubeiwshd/2000/index.m3u8?msisdn=df848c3c5c683da0acfbf8d41297cd23&mdspid=&spid=600633&netType=0&sid=5910022163&pid=2028597139&timestamp=20260718230612&Channel_ID=0116_2600034600-99000-201600010064572&ProgramID=947472496&ParentNodeID=-99&assertID=5910022163&client_ip=36.213.35.63&SecurityKey=20260718230612&promotionId=&mvid=5900004355&mcid=500020&playurlVersion=ZQ-A1-9.6.1.6-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=fb3909029571980c24ff377c8666355c&sv=10004&ct=android
-#EXTINF:-1 tvg-id="山东卫视" tvg-name="山东卫视" tvg-logo="" group-title="卫视频道",山东卫视
+#EXTINF:-1 tvg-id="山东���视" tvg-name="山东���视" tvg-logo="" group-title="卫视频道",山东���视
 https://hlsbkmgsplive.miguvideo.com/wd_r4/yg/shandongwshd/3000/01.m3u8?&HlsSubType=&encrypt=
 #EXTINF:-1 tvg-id="山东卫视" tvg-name="山东卫视" tvg-logo="" group-title="卫视频道",山东卫视
 https://hlsbkmgsplive.miguvideo.com/wd-shandonghd-1200/01.m3u8?&HlsSubType=&encrypt=
@@ -217,7 +217,7 @@ http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/bjws/51/20251127/index.m3u8?
 http://hlsztemgsplive.miguvideo.com:8080/wd_r2/2018/ocn/hubeiwshd/2000/index.m3u8?msisdn=df848c3c5c683da0acfbf8d41297cd23&mdspid=&spid=600633&netType=0&sid=5910022163&pid=2028597139&timestamp=20260718230846&Channel_ID=0116_2600034600-99000-201600010093668&ProgramID=947472496&ParentNodeID=-99&assertID=5910022163&client_ip=36.213.35.207&SecurityKey=20260718230846&promotionId=&mvid=5900004355&mcid=500020&playurlVersion=ZQ-A1-9.6.1.6-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=8d3a85e9db92096d5b5ee2b6ff6b257c&sv=10004&ct=android
 #EXTINF:-1 tvg-id="湖北卫视" tvg-name="湖北卫视" tvg-logo="" group-title="卫视频道",湖北卫视
 http://hlsztemgsplive.miguvideo.com:8080/wd_r2/2018/ocn/hubeiwshd/2000/index.m3u8?msisdn=df848c3c5c683da0acfbf8d41297cd23&mdspid=&spid=600633&netType=0&sid=5910022163&pid=2028597139&timestamp=20260718230612&Channel_ID=0116_2600034600-99000-201600010064572&ProgramID=947472496&ParentNodeID=-99&assertID=5910022163&client_ip=36.213.35.63&SecurityKey=20260718230612&promotionId=&mvid=5900004355&mcid=500020&playurlVersion=ZQ-A1-9.6.1.6-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=fb3909029571980c24ff377c8666355c&sv=10004&ct=android
-#EXTINF:-1 tvg-id="山东卫视" tvg-name="山东卫视" tvg-logo="" group-title="卫视频道",山东卫视
+#EXTINF:-1 tvg-id="山东���视" tvg-name="山东���视" tvg-logo="" group-title="卫视频道",山东���视
 https://hlsbkmgsplive.miguvideo.com/wd_r4/yg/shandongwshd/3000/01.m3u8?&HlsSubType=&encrypt=
 #EXTINF:-1 tvg-id="山东卫视" tvg-name="山东卫视" tvg-logo="" group-title="卫视频道",山东卫视
 https://hlsbkmgsplive.miguvideo.com/wd-shandonghd-1200/01.m3u8?&HlsSubType=&encrypt=
@@ -349,12 +349,10 @@ https://rmplive.hljtv.com/live/yichun.m3u8
 https://masterpull.hljtv.com/live/rlVvbTZN.m3u8
 #EXTINF:-1 tvg-id="大庆新闻综合" tvg-name="大庆新闻综合" tvg-logo="" group-title="黑龙江地区",大庆新闻综合
 https://masterpull.hljtv.com/live/4WdrZLCq.m3u8
-#EXTINF:-1 tvg-id="���宁综合" tvg-name="���宁综合" tvg-logo="" group-title="黑龙江地区",���宁综合
+#EXTINF:-1 tvg-id="东宁综合" tvg-name="东宁综合" tvg-logo="" group-title="黑龙江地区",东宁综合
 https://masterpull.hljtv.com/live/UQdxnsw8.m3u8
 #EXTINF:-1 tvg-id="黑河新闻综合" tvg-name="黑河新闻综合" tvg-logo="" group-title="黑龙江地区",黑河新闻综合
 https://masterpull.hljtv.com/live/iyoENgSP.m3u8
-#EXTINF:-1 tvg-id="鹤岗综合" tvg-name="鹤岗综合" tvg-logo="" group-title="黑龙江地区",鹤岗综合
-https://masterpull.hljtv.com/live/rApKWXbX.m3u8
 #EXTINF:-1 tvg-id="鹤岗综合" tvg-name="鹤岗综合" tvg-logo="" group-title="黑龙江地区",鹤岗综合
 https://rmplive.hljtv.com/live/hegang.m3u8
 #EXTINF:-1 tvg-id="富锦综合" tvg-name="富锦综合" tvg-logo="" group-title="黑龙江地区",富锦综合
