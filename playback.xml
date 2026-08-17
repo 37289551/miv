@@ -1476,17 +1476,14 @@
     <programme channel="CCTV15音乐" start="20260817193000 +0800" stop="20260817210330 +0800">
         <title lang="zh">全球中文音乐榜上榜-2024-江山如画黄河的交响</title>
     </programme>
-    <programme channel="CCTV15音乐" start="20260817210330 +0800" stop="20260817214500 +0800">
-        <title lang="zh">中国音乐电视-2026-3-山河回响 声动群山间</title>
+    <programme channel="CCTV15音乐" start="20260817210330 +0800" stop="20260817221600 +0800">
+        <title lang="zh">CCTV音乐厅-2026-132-“月下清歌”经典民歌合唱之夜</title>
     </programme>
-    <programme channel="CCTV15音乐" start="20260817214500 +0800" stop="20260817224430 +0800">
+    <programme channel="CCTV15音乐" start="20260817221600 +0800" stop="20260817231530 +0800">
         <title lang="zh">CCTV音乐厅-2026-149-经典回响-古典名作系列音乐会（11）</title>
     </programme>
-    <programme channel="CCTV15音乐" start="20260817224430 +0800" stop="20260817235815 +0800">
+    <programme channel="CCTV15音乐" start="20260817231530 +0800" stop="20260817235900 +0800">
         <title lang="zh">精彩音乐汇-我的爱对你说-2026-269</title>
-    </programme>
-    <programme channel="CCTV15音乐" start="20260817235815 +0800" stop="20260817235900 +0800">
-        <title lang="zh">风华国乐-2026-234</title>
     </programme>
     <channel id="CCTV17农业农村">
         <display-name lang="zh">CCTV17农业农村</display-name>
@@ -4227,7 +4224,7 @@
     <programme channel="辽宁卫视" start="20260817225200 +0800" stop="20260817233100 +0800">
         <title lang="zh">欢乐集结号</title>
     </programme>
-    <programme channel="辽宁卫视" start="20260817233100 +0800" stop="20260818000000 +0800">
+    <programme channel="辽宁卫视" start="20260817233100 +0800" stop="20260818002700 +0800">
         <title lang="zh">欢乐集结号</title>
     </programme>
     <channel id="河北卫视">
@@ -4383,7 +4380,7 @@
     <programme channel="河北卫视" start="20260817233300 +0800" stop="20260817235300 +0800">
         <title lang="zh">磁州窑</title>
     </programme>
-    <programme channel="河北卫视" start="20260817235300 +0800" stop="20260818000000 +0800">
+    <programme channel="河北卫视" start="20260817235300 +0800" stop="20260818004700 +0800">
         <title lang="zh">父辈的荣耀</title>
     </programme>
     <channel id="江西卫视">
