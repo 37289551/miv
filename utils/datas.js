@@ -1,5 +1,5 @@
 // 更新时间
-const repoLinkUpdateTimestamp = 1792318328694
+const repoLinkUpdateTimestamp = 1792334682287
 // 回放
 const cntvNames = {
   "CCTV1综合": "cctv1",
